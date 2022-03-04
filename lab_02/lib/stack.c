@@ -9,19 +9,19 @@ void initStack(struct stack *stk)
 
 int isEmpty(struct stack *stk)
 {
-    return (stk->topInd == 0);
+    return (stk->topInd == 0) ? 1 : 0;
 }
 
 
 int isOverflow(struct stack *stk)
 {
-    return (stk->topInd >= STACK_SIZE);
+    return (stk->topInd >= STACK_SIZE) ? 1 : 0;
 }
 
 
-void pushStack(struct stack *stk, struct stackElement *elem)
+void push(struct stack *stk, struct stackElement *elem)
 {
-    if (isOverflow(stk))
+    if (isOverflow(stk))   
     {
         printf("\nError: Stack if overflowed\n");
         return;
@@ -34,7 +34,7 @@ void pushStack(struct stack *stk, struct stackElement *elem)
 }
 
 
-struct stackElement popStack(struct stack *stk)
+struct stackElement pop(struct stack *stk)
 {
     struct stackElement elem = {.fileName = "", .depth = 0};
 
@@ -44,10 +44,11 @@ struct stackElement popStack(struct stack *stk)
         return elem;
     }
 
+    stk->topInd--;
+
     strcpy(elem.fileName, stk->elements[stk->topInd].fileName);
     elem.depth = stk->elements[stk->topInd].depth;
 
-    stk->topInd--;
 
     return elem;
 }

@@ -2,9 +2,10 @@
 #include <string.h>
 #include <unistd.h>
 #include <dirent.h>
+#include <linux/limits.h>
 
-#include "stack.h"
-#include "statistics.h"
+#include "lib/stack.h"
+#include "lib/statistics.h"
 #include "errno.h"
 
 
@@ -22,129 +23,159 @@ typedef int fn(const char *, int, int);
 
 int doPath(fn *func, char *fullPath, int depth)
 {
-	if (depth < 0)
-	{
-		chdir(fullPath);
-		return 0;
-	}
+    if (depth < 0)
+    { 
+        chdir(fullPath);
+        return 0;
+    }
 
-	struct stat statBuf;
+    struct stat statBuf;
 
-	struct dirent *dirp;
-	DIR *dp;
+    struct dirent *dirp;
+    DIR *dp; // тип данных для потока каталога
 
-	if (lstat(fullPath, &statBuf) == -1)
-	{
-		return -1;
-	}
+    // lstat -- возвращает информацию о файле и записывает в буфер (в отличие от stat -- в случае символьных ссылок возвращает информацию о самой ссылке, а не о файле, на который указывает)
+    if (lstat(fullPath, &statBuf) == -1)
+    {
+        return -1;
+    }
 
-	if (!S_ISDIR(statBuf.st_mode))
-	{
-		incStat(&statBuf, &stats);
-		func(fullPath, FTW_FILE, depth);
+    // Если не каталог
+    if (!S_ISDIR(statBuf.st_mode))
+    {
+        // Статистика файлов
+        incStat(&statBuf, &stats);
+        func(fullPath, FTW_FILE, depth);
 
-		return 0;
-	}
+        return 0;
+    }
 
-	func(fullPath, FTW_DIR, depth);
-	stats.ndir++;
+    // Если каталог
+    func(fullPath, FTW_DIR, depth);
+    // Инкремент каталогов
+    stats.ndir++;
 
-	if ((dp = opendir(fullPath)) == NULL)
-	{
-		printf("\nОшибка: каталог не доступен для открытия\n");
-		return -1;
-	}
+    // opendir() -- открывает поток каталога 
+    // для чтения каталога
+    if ((dp = opendir(fullPath)) == NULL)
+    {
+        printf("\nОшибка: каталог не доступен для открытия\n");
+        return -1;
+    }
 
-	if (chdir(fullPath) == -1)
-	{
-		closedir(dp);
-		printf("\nОшибка: не удалось перейти в каталог\n");
+    // Переход в каталог
+    if (chdir(fullPath) == -1)
+    {
+        // Закрыть поток при неудаче перехода
+        closedir(dp);
+        printf("\nОшибка: не удалось перейти в каталог\n");
 
-		return -1;
-	}
+        return -1;
+    }
 
-	depth++;
-
-	// Для возврата
-	struct stackElement elem = {.fileName = "..", .depth = -1};
-
-	pushStack(&stk, &elem);
-
-	while ((dirp = readdir(dp)) != NULL)
-	{
-		if ((strcmp(dirp->d_name, ".") != 0) && (strcmp(dirp->d_name, "..") != 0))
-		{
-			strcpy(elem.fileName, dirp->d_name);
-			elem.depth = depth;
-
-			pushStack(&stk, &elem);
-		}
-	}
+    // Инкремент глубины дерева каталогов
+    depth++;
 
 
-	if (errno == 0)
-	{
-		printf("В каталоге больше нет записей\n");
-	}
+    // Для возврата
+    // Подняться на уровень выше при завершении
+    // обработки текущей директории
+    struct stackElement elem = {.fileName = "..", .depth = -1};
 
-	if (closedir(dp) == -1)
-	{
-		return -1;
-	}
+    push(&stk, &elem);
 
-	return 0;
+    // readdir() -- читает записи в каталоге
+    // и возвращает указатель на структуру dirent
+    // или NULL, если все записи прочитаны
+    while ((dirp = readdir(dp)) != NULL)
+    {   
+        // Пропуск текущего и родительского каталогов
+        if ((strcmp(dirp->d_name, ".") != 0) && (strcmp(dirp->d_name, "..") != 0))
+        {
+            // Добавить информацию о найденном каталоге
+            strcpy(elem.fileName, dirp->d_name);
+            elem.depth = depth;
+
+            push(&stk, &elem);
+        }
+    }
+
+    // Если readir() вернуло NULL и при этом errno == 0,
+    // то в каталоге больше не осталось записей
+    if (errno != 0)
+    {
+        printf("\nОшибка: не удалость прочесть все записи\n");
+    }
+
+    // Закрыть поток каталога
+    if (closedir(dp) == -1)
+    {
+        return -1;
+    }
+
+    return 0;
 }
-
-
 
 
 static int ftw(char *pathName, fn *func)
 {
-	if (chdir(pathName) == -1)
-	{
-		printf("\nError: Directory is not exist\n");
-		return -1;
-	}
+    // Изменить текущую директорию на переданную
+    if (chdir(pathName) == -1)
+    {
+        printf("\nОшибка: каталога не существует или нет доступа\n");
+        return -1;
+    }
 
-	initStack(&stk);
+    // Инициализация стека прохода по каталогам
+    initStack(&stk);
 
-	struct stackElement elem = {.fileName = NULL, .depth = 0};
-	char cwd[PATH_MAX];
+    // Элемент стека
+    struct stackElement elem = {.depth = 0};
+    
+    // PATH_MAX = 4096 -- максимальное размер имени пути
+    char cwd[PATH_MAX];
 
-	if (getcwd(cwd, sizeof(cwd)) == NULL)
-	{
-		printf("\nError: Can not get full path to work dir\n");
-		return -1;
-	}
+    // getcwd() -- копирует абсолютный путь к текущему
+    // каталогу в буфер размера size
 
-	strcpy(elem.fileName, cwd);
-	
-	pushStack(&stk, &elem);
+    if (getcwd(cwd, sizeof(cwd)) == NULL)
+    {
+        printf("\nError: Can not get full path to work dir\n");
+        return -1;
+    }
 
-	while (!isEmpty(&stk))
-	{
-		doPath(func, elem.fileName, elem.depth);
-		elem = popStack(&stk);
-	}
+    
 
-	printStat(&stats);
+    // Добавить запись в стек 
+    strcpy(elem.fileName, cwd);
 
-	return 0;
+    push(&stk, &elem); 
+
+    while (!isEmpty(&stk))
+    {
+        // Проход по файлам каталога
+        doPath(func, elem.fileName, elem.depth);
+        elem = pop(&stk);
+    }
+
+    // Распечатать статистику файлов
+    printStat(&stats);
+
+    return 0;
 }
-
 
 
 
 static int function(const char *pathName, int type, int depth)
 {
-	for (int i = 0; i < depth; i++)
-	{
-		printf("       |");
-	}
+    for (int i = 0; i < depth; i++)
+    {
+        printf("----| ");
+    }
 
-	printf("     |--- %s\n",  pathName);
+    printf(" %s\n",  pathName);
 
-	return 0;
+    return 0;
 }
 
 
@@ -152,12 +183,12 @@ static int function(const char *pathName, int type, int depth)
 
 int main(int argc, char *argv[])
 {
-	if (argc != 2)
-	{
-		printf("Error: directory is not set");
-		return -1;
-	}
+    if (argc != 2) 
+    {
+        printf("Error: directory is not set");
+        return -1;
+    }
 
-	return ftw(argv[1], function);
+    return ftw(argv[1], function);
 }
 

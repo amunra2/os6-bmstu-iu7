@@ -19,7 +19,7 @@ void printStat(stat_t *stats)
                     stats->ndir;
 
     printf(
-        " Статистика файлов \
+        "\n\n\n Статистика файлов \
          \n ------------------------------------------------------------------ \
          \n Обычные:                                   %5d (%4.2f %%)          \
          \n Каталоги:                                  %5d (%4.2f %%)          \
@@ -29,10 +29,10 @@ void printStat(stat_t *stats)
          \n Символьные ссылки:                         %5d (%4.2f %%)          \
          \n Сокеты:                                    %5d (%4.2f %%)          \
          \n ------------------------------------------------------------------ \
-         \n Всего:                                     %5d", 
+         \n Всего:                                     %5d\n\n", 
 
          stats->nreg, findPercent(stats->nreg, stats->ntotal),
-         stats->nchr, findPercent(stats->nchr, stats->ntotal),
+         stats->ndir, findPercent(stats->ndir, stats->ntotal),
          stats->nblk, findPercent(stats->nblk, stats->ntotal),
          stats->nchr, findPercent(stats->nchr, stats->ntotal),
          stats->nfifo, findPercent(stats->nfifo, stats->ntotal),

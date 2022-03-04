@@ -5,13 +5,13 @@
 #include <string.h>
 
 #define STACK_SIZE 1000000
-#define MAX_NAME 100
+#define MAX_NAME 200
 
 
 struct stackElement
 {
     char fileName[MAX_NAME];
-    int depth;
+    long depth;
 };
 
 
@@ -25,7 +25,7 @@ struct stack
 void initStack(struct stack *stk);
 int isEmpty(struct stack *stk);
 int isOverflow(struct stack *stk);
-void pushStack(struct stack *stk, struct stackElement *elem);
-struct stackElement popStack(struct stack *stk);
+void push(struct stack *stk, struct stackElement *elem);
+struct stackElement pop(struct stack *stk);
 
 #endif

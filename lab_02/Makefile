@@ -1,4 +1,4 @@
-CFLAGS := -pthread
+CFLAGS := -fPIC
 FILE_O := $(subst .c,.o,$(wildcard lib/*.c))
 HEADERS_DIR := lib/
 
@@ -15,5 +15,5 @@ clean:
 	rm -f *.o *.exe src/*.o
 
 run: app.exe
-	sudo ./app.exe
+	./app.exe ~/studying/sem6 
 
