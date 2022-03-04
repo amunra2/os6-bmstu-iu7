@@ -18,7 +18,7 @@ void printStat(stat_t *stats)
                     stats->nsock + \
                     stats->ndir;
 
-    printf(
+    printf(YELLOW
         "\n\n\n Статистика файлов \
          \n ------------------------------------------------------------------ \
          \n Обычные:                                   %5d (%4.2f %%)          \
@@ -29,7 +29,7 @@ void printStat(stat_t *stats)
          \n Символьные ссылки:                         %5d (%4.2f %%)          \
          \n Сокеты:                                    %5d (%4.2f %%)          \
          \n ------------------------------------------------------------------ \
-         \n Всего:                                     %5d\n\n", 
+         \n Всего:                                     %5d\n\n" RESET, 
 
          stats->nreg, findPercent(stats->nreg, stats->ntotal),
          stats->ndir, findPercent(stats->ndir, stats->ntotal),

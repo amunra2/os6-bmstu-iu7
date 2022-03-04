@@ -8,12 +8,18 @@
 #include "lib/statistics.h"
 #include "errno.h"
 
+#include <time.h>
+
 
 #define FTW_FILE 1
 #define FTW_DIR  2
 
 
-static struct stack stk;
+// Стек -- список
+node_t *stk = NULL;
+
+// // Стек -- массив
+//struct stack stk;
 static stat_t stats;
 
 
@@ -34,7 +40,9 @@ int doPath(fn *func, char *fullPath, int depth)
     struct dirent *dirp;
     DIR *dp; // тип данных для потока каталога
 
-    // lstat -- возвращает информацию о файле и записывает в буфер (в отличие от stat -- в случае символьных ссылок возвращает информацию о самой ссылке, а не о файле, на который указывает)
+    // lstat -- возвращает информацию о файле и записывает в буфер 
+    // (в отличие от stat -- в случае символьных ссылок возвращает 
+    // информацию о самой ссылке, а не о файле, на который указывает)
     if (lstat(fullPath, &statBuf) == -1)
     {
         return -1;
@@ -80,9 +88,9 @@ int doPath(fn *func, char *fullPath, int depth)
     // Для возврата
     // Подняться на уровень выше при завершении
     // обработки текущей директории
-    struct stackElement elem = {.fileName = "..", .depth = -1};
+    node_t *elem = create_node("..", -1);
 
-    push(&stk, &elem);
+    push(&stk, elem);
 
     // readdir() -- читает записи в каталоге
     // и возвращает указатель на структуру dirent
@@ -93,10 +101,9 @@ int doPath(fn *func, char *fullPath, int depth)
         if ((strcmp(dirp->d_name, ".") != 0) && (strcmp(dirp->d_name, "..") != 0))
         {
             // Добавить информацию о найденном каталоге
-            strcpy(elem.fileName, dirp->d_name);
-            elem.depth = depth;
+            elem = create_node(dirp->d_name, depth);
 
-            push(&stk, &elem);
+            push(&stk, elem);
         }
     }
 
@@ -126,11 +133,6 @@ static int ftw(char *pathName, fn *func)
         return -1;
     }
 
-    // Инициализация стека прохода по каталогам
-    initStack(&stk);
-
-    // Элемент стека
-    struct stackElement elem = {.depth = 0};
     
     // PATH_MAX = 4096 -- максимальное размер имени пути
     char cwd[PATH_MAX];
@@ -143,18 +145,16 @@ static int ftw(char *pathName, fn *func)
         printf("\nError: Can not get full path to work dir\n");
         return -1;
     }
-
     
 
     // Добавить запись в стек 
-    strcpy(elem.fileName, cwd);
-
-    push(&stk, &elem); 
+    node_t *elem = create_node(cwd, 0);
+    push(&stk, elem); 
 
     while (!isEmpty(&stk))
     {
         // Проход по файлам каталога
-        doPath(func, elem.fileName, elem.depth);
+        doPath(func, elem->fileName, elem->depth);
         elem = pop(&stk);
     }
 
@@ -170,10 +170,17 @@ static int function(const char *pathName, int type, int depth)
 {
     for (int i = 0; i < depth; i++)
     {
-        printf("----| ");
+        printf(MAGENTA "----| " RESET);
     }
 
-    printf(" %s\n",  pathName);
+    if (type == FTW_DIR)
+    {
+        printf(GREEN" %s\n" RESET,  pathName);
+    }
+    else if (type == FTW_FILE)
+    {
+        printf(CYAN " %s\n" RESET,  pathName);
+    }
 
     return 0;
 }

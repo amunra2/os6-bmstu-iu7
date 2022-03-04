@@ -15,5 +15,9 @@ clean:
 	rm -f *.o *.exe src/*.o
 
 run: app.exe
-	./app.exe ~/studying/sem6 
+	./app.exe ~/studying/sem6/
+
+
+test:
+	./ir.exe ~/studying/
 
