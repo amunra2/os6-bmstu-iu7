@@ -10,8 +10,8 @@ void getPath(char *path, char *name)
 
 void getProcPath(char *path, char *name)
 {
-    snprintf(path, PATH_LENGTH, "/proc/%s", name); 
-}
+    snprintf(path, PATH_LENGTH, "/proc/%s", name);  
+} 
 
 
 
@@ -170,4 +170,4 @@ void fprintPagemap(FILE *f_out)
 
     close(maps_fd);
     close(pagemap_fd);
-}
+}  

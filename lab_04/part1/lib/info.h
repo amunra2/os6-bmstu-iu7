@@ -13,10 +13,10 @@
 #include <fcntl.h>
 
 #define BUF_SIZE 2048
-#define PATH_LENGTH 256
+#define PATH_LENGTH 512
 
 
-#define PID 21378
+#define PID 64361
 
 
 static char *statMeanings[] = {

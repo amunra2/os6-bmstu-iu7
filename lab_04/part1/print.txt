@@ -1,12 +1,13 @@
 Need to print:
 
-/proc/[pid]/cmdline +
+/proc/[pid]/cmdline + 
 /proc/[pid]/cwd +
 /proc/[pid]/environ +
 /proc/[pid]/exe +
 /proc/[pid]/fd +
 /proc/[pid]/root +
 /proc/[pid]/stat +
+/proc/[pid]/statm +
 /proc/[pid]/io +
 /proc/[pid]/maps +
 /proc/[pid]/smaps +
@@ -18,3 +19,4 @@ Need to print:
 /proc/interrupts +
 /proc/ioports +
 /proc/modules +
+
