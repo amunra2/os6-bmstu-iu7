@@ -1,0 +1,4002 @@
+
+
+
+---------------------------------                         
+   /proc/21378/environ                         
+---------------------------------
+
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+DISPLAY=:0
+COLORTERM=truecolor
+LANG=ru_RU.UTF-8
+TERM=xterm-256color
+MAIL=/var/mail/root
+LOGNAME=root
+USER=root
+HOME=/root
+SHELL=/bin/bash
+SUDO_COMMAND=./app.exe
+SUDO_USER=amunra23
+SUDO_UID=1000
+SUDO_GID=1000
+
+
+
+---------------------------------                         
+   /proc/21378/cmdline                         
+---------------------------------
+
+./app.exe
+
+
+---------------------------------                         
+   /proc/21378/fd                         
+---------------------------------
+
+{   0} -- /proc/21378/cmdline
+{   1} -- /proc/21378/cmdline
+{   2} -- /proc/21378/cmdline
+{   3} -- /proc/21378/cmdline
+{   4} -- /proc/21378/cmdline
+
+
+
+---------------------------------                         
+   /proc/21378/stat                         
+---------------------------------
+
+pid = 21378
+comm = (app.exe)
+state = S
+ppid = 1531
+pgrp = 21378
+session = 21378
+tty_nr = 0
+tpgid = -1
+flags = 1077936192
+minflt = 55
+cminflt = 0
+majflt = 0
+cmajflt = 0
+utime = 43
+stime = 24
+cutime = 0
+cstime = 0
+priority = 20
+nice = 0
+num_threads = 2
+itrealvalue = 0
+starttime = 838541
+vsize = 11104256
+rss = 24
+rsslim = 18446744073709551615
+startcode = 93997248442368
+endcode = 93997248446341
+startstack = 140736907727424
+kstkesp = 0
+kstkeip = 0
+pending = 0
+blocked = 2147221247
+sigign = 0
+sigcatch = 0
+wchan = 0
+nswap = 0
+cnswap = 0
+exit_signal = 17
+processor = 3
+rt_priority = 0
+policy = 0
+blkio_ticks = 0
+gtime = 0
+cgtime = 0
+start_data = 93997248453784
+end_data = 93997248454672
+start_brk = 93997262823424
+arg_start = 140736907729085
+arg_end = 140736907729095
+env_start = 140736907729095
+env_end = 140736907730926
+exit_code = 0
+
+
+
+
+---------------------------------                         
+   /proc/21378/statm                         
+---------------------------------
+
+size = 2711
+resident = 24
+shared = 0
+trs = 1
+lrs = 0
+drs = 2133
+dt = 0
+
+
+
+
+---------------------------------                         
+   /proc/21378/io                         
+---------------------------------
+
+rchar: 2462
+wchar: 6
+syscr: 2
+syscw: 1
+read_bytes: 0
+write_bytes: 0
+cancelled_write_bytes: 0
+
+
+
+---------------------------------                         
+   /proc/21378/cwd                         
+---------------------------------
+
+/
+
+
+---------------------------------                         
+   /proc/21378/exe                         
+---------------------------------
+
+/home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+
+
+---------------------------------                         
+   /proc/21378/root                         
+---------------------------------
+
+/
+
+
+---------------------------------                         
+   /proc/21378/comm                         
+---------------------------------
+
+app.exe
+
+
+
+---------------------------------                         
+   /proc/21378/task                         
+---------------------------------
+
+{21378} -- /proc/21378/comm
+{21379} -- /proc/21378/comm
+
+
+
+---------------------------------                         
+   /proc/filesystems                         
+---------------------------------
+
+nodev	sysfs
+nodev	tmpfs
+nodev	bdev
+nodev	proc
+nodev	cgroup
+nodev	cgroup2
+nodev	cpuset
+nodev	devtmpfs
+nodev	configfs
+nodev	debugfs
+nodev	tracefs
+nodev	securityfs
+nodev	sockfs
+nodev	bpf
+nodev	pipefs
+nodev	ramfs
+nodev	hugetlbfs
+nodev	devpts
+	ext3
+	ext2
+	ext4
+	squashfs
+	vfat
+nodev	ecryptfs
+	fuseblk
+nodev	fuse
+nodev	fusectl
+nodev	efivarfs
+nodev	mqueue
+nodev	pstore
+nodev	autofs
+nodev	binfmt_misc
+
+
+
+---------------------------------                         
+   /proc/fs                         
+---------------------------------
+
+{ext4} -- /proc/filesystems
+{jbd2} -- /proc/filesystems
+{nfsd} -- /proc/filesystems
+
+
+
+---------------------------------                         
+   /proc/interrupts                         
+---------------------------------
+
+            CPU0       CPU1       CPU2       CPU3       
+   0:          8          0          0          0  IR-IO-APIC    2-edge      timer
+   1:          0          0      21278          0  IR-IO-APIC    1-edge      i8042
+   8:          0          0          0          1  IR-IO-APIC    8-edge      rtc0
+   9:          0          7          0          0  IR-IO-APIC    9-fasteoi   acpi
+  14:          0     664334          0          0  IR-IO-APIC   14-fasteoi   INT345D:00
+  16:          3          0          0          0  IR-IO-APIC   16-fasteoi   idma64.0, i801_smbus, i2c_designware.0
+  17:          0          0    9564947          0  IR-IO-APIC   17-fasteoi   idma64.1, i2c_designware.1, snd_hda_intel:card1
+ 120:          0          0          0          0  DMAR-MSI    0-edge      dmar0
+ 121:          0          0          0          0  DMAR-MSI    1-edge      dmar1
+ 125:          0        179        259          0  IR-PCI-MSI 327680-edge      xhci_hcd
+ 126:       1140      31097      50785     167903  IR-PCI-MSI 376832-edge      ahci[0000:00:17.0]
+ 127:          0          3          0          0  IR-PCI-MSI 1572864-edge      rtsx_pci
+ 128:          0     664333          0          0  INT345D:00   27  ELAN0511:01
+ 129:      65975     151169     632884      32024  IR-PCI-MSI 1574912-edge      enp3s0f1
+ 130:          0          0          0         46  IR-PCI-MSI 360448-edge      mei_me
+ 131:        152          0        140          0  IR-PCI-MSI 32768-edge      i915
+ 132:          0        626          0          0  IR-PCI-MSI 514048-edge      snd_hda_intel:card0
+ 133:        663     303384       3473     211091  IR-PCI-MSI 1048576-edge      ath10k_pci
+ 134:     972663       2562     962114      56159  IR-PCI-MSI 524288-edge      nvidia
+ NMI:          0          0          0          0   Non-maskable interrupts
+ LOC:    3138171    3268960    3351482    3257834   Local timer interrupts
+ SPU:          0          0          0          0   Spurious interrupts
+ PMI:          0          0          0          0   Perfor '#`Umance monitoring interrupts
+ IWI:          8         16          3          1   IRQ work interrupts
+ RTR:          0          0          0          0   APIC ICR read retries
+ RES:     193819     225302     247984     396935   Rescheduling interrupts
+ CAL:     434790     435893     430009     425620   Function call interrupts
+ TLB:     266182     262758     269097     259052   TLB shootdowns
+ TRM:          0          0          0          0   Thermal event interrupts
+ THR:          0          0          0          0   Threshold APIC interrupts
+ DFR:          0          0          0          0   Deferred Error APIC interrupts
+ MCE:          0          0          0          0   Machine check exceptions
+ MCP:         46         47         47         47   Machine check polls
+ ERR:          0
+ MIS:          0
+ PIN:          0          0          0          0   Posted-interrupt notification event
+ NPI:          0          0          0          0   Nested posted-interrupt event
+ PIW:          0          0          0          0   Posted-interrupt wakeup event
+7:          0          3          0          0  IR-PCI-MSI 1572864-edge      rtsx_pci
+ 128:          0     664333          0          0  INT345D:00   27  ELAN0511:01
+ 129:      65975     151169     632884      32024  IR-PCI-MSI 1574912-edge      enp3s0f1
+ 130:          0          0          0         46  IR-PCI-MSI 360448-edge      mei_me
+ 131:        152          0        140          0  IR-PCI-MSI 32768-edge      i915
+ 132:          0        626          0          0  IR-PCI-MSI 514048-edge      snd_hda_intel:card0
+ 133:        663     303384       3473     211091  IR-PCI-MSI 1048576-edge      ath10k_pci
+ 134:     972663       2562     962114      56159  IR-PCI-MSI 524288-edge      nvidia
+ NMI:          0          0          0          0   Non-maskable interrupts
+ LOC:    3138171    3268960    3351482    3257834   Local timer interrupts
+ SPU:          0          0          0          0   Spurious interrupts
+ PMI:          0          0          0          0   Perfor '#`U
+
+
+---------------------------------                         
+   /proc/ioports                         
+---------------------------------
+
+0000-0cf7 : PCI Bus 0000:00
+  0000-001f : dma1
+  0020-0021 : pic1
+  0040-0043 : timer0
+  0050-0053 : timer1
+  0060-0060 : keyboard
+  0062-0062 : PNP0C09:00
+    0062-0062 : EC data
+  0064-0064 : keyboard
+  0066-0066 : PNP0C09:00
+    0066-0066 : EC cmd
+  0070-0077 : rtc0
+  0080-008f : dma page reg
+  00a0-00a1 : pic2
+  00c0-00df : dma2
+  00f0-00ff : fpu
+    00f0-00f0 : PNP0C04:00
+  0400-041f : iTCO_wdt
+  0680-069f : pnp 00:02
+  0800-087f : pnp 00:03
+0cf8-0cff : PCI conf1
+0d00-ffff : PCI Bus 0000:00
+  164e-164f : pnp 00:02
+  1800-18fe : pnp 00:02
+    1800-1803 : ACPI PM1a_EVT_BLK
+    1804-1805 : ACPI PM1a_CNT_BLK
+    1808-180b : ACPI PM_TMR
+    1810-1815 : ACPI CPU throttle
+    1850-1850 : ACPI PM2_CNT_BLK
+    1854-1857 : pnp 00:05
+    1880-189f : ACPI GPE0_BLK
+  2000-20fe : pnp 00:01
+  3000-3fff : PCI Bus 0000:03
+    3000-30ff : 0000:03:00.1
+  4000-4fff : PCI Bus 0000:01
+    4000-407f : 0000:01:00.0
+  5000-503f : 0000:00:02.0
+  5040-505f : 0000:00:1f.4
+    5040-505f : i801_smbus
+  5060-507f : 0000:00:17.0
+    5060-507f : ahci
+  5080-5087 : 0000:00:17.0
+    5080-5087 : ahci
+  5088-508b : 0000:00:17.0
+    5088-508b : ahci
+  fd60-fd63 : pnp 00:02
+  ffff-ffff : pnp 00:02
+    ffff-ffff : pnp 00:02
+      ffff-ffff : pnp 00:02
+:      65975     151169     632884      32024  IR-PCI-MSI 1574912-edge      enp3s0f1
+ 130:          0          0          0         46  IR-PCI-MSI 360448-edge      mei_me
+ 131:        152          0        140          0  IR-PCI-MSI 32768-edge      i915
+ 132:          0        626          0          0  IR-PCI-MSI 514048-edge      snd_hda_intel:card0
+ 133:        663     303384       3473     211091  IR-PCI-MSI 1048576-edge      ath10k_pci
+ 134:     972663       2562     962114      56159  IR-PCI-MSI 524288-edge      nvidia
+ NMI:          0          0          0          0   Non-maskable interrupts
+ LOC:    3138171    3268960    3351482    3257834   Local timer interrupts
+ SPU:          0          0          0          0   Spurious interrupts
+ PMI:          0          0          0          0   Perfor '#`U
+
+
+---------------------------------                         
+   /proc/modules                         
+---------------------------------
+
+rfcomm 81920 4 - Live 0xffffffffc2560000
+ccm 20480 6 - Live 0xffffffffc24ee000
+cmac 16384 17 - Live 0xffffffffc24d1000
+algif_hash 16384 8 - Live 0xffffffffc24ca000
+algif_skcipher 16384 8 - Live 0xffffffffc24c5000
+af_alg 28672 34 algif_hash,algif_skcipher, Live 0xffffffffc24bd000
+bnep 24576 2 - Live 0xffffffffc246c000
+binfmt_misc 24576 1 - Live 0xffffffffc22f6000
+nls_iso8859_1 16384 1 - Live 0xffffffffc03a1000
+uvcvideo 102400 0 - Live 0xffffffffc23a8000
+videobuf2_vmalloc 20480 1 uvcvideo, Live 0xffffffffc23a2000
+videobuf2_memops 20480 1 videobuf2_vmalloc, Live 0xffffffffc239c000
+videobuf2_v4l2 32768 1 uvcvideo, Live 0xffffffffc2393000
+videobuf2_common 61440 4 uvcvideo,videobuf2_vmalloc,videobuf2_memops,videobuf2_v4l2, Live 0xffffffffc2383000
+btusb 61440 0 - Live 0xffffffffc235d000
+videodev 249856 3 uvcvideo,videobuf2_v4l2,videobuf2_common, Live 0xffffffffc231f000
+btrtl 24576 1 btusb, Live 0xffffffffc2318000
+mc 57344 4 uvcvideo,videobuf2_v4l2,videobuf2_common,videodev, Live 0xffffffffc2309000
+btbcm 16384 1 btusb, Live 0xffffffffc22ff000
+btintel 32768 1 btusb, Live 0xffffffffc2247000
+bluetooth 651264 31 rfcomm,bnep,btusb,btrtl,btbcm,btintel, Live 0xffffffffc2256000
+ecdh_generic 16384 2 bluetooth, Live 0xffffffffc2251000
+ecc 36864 1 ecdh_generic, Live 0xffffffffc223d000
+intel_rapl_msr 20480 0 - Live 0xffffffffc2237000
+nvidia_uvm 1019904 0 - Live 0xffffffffc213d000 (PO)
+mei_hdcp 24576 0 - Live 0xffffffffc212f000
+intel_rapl_common 24576 1 intel_rapl_msr, Live 0xffffffffc2136000
+intel_tcc_cooling 16384 0 - Live 0xffffffffc2121000
+x86_pkg_temp_thermal 20480 0 - Live 0xffffffffc211b000
+snd_ctl_led 24576 0 - Live 0xffffffffc2128000
+snd_hda_codec_realtek 143360 1 - Live 0xffffffffc20f7000
+intel_powerclamp 20480 0 - Live 0xffffffffc20f1000
+coretemp 20480 0 - Live 0xffffffffc08d9000
+nvidia_drm 53248 8 - Live 0xffffffffc20e3000 (PO)
+nvidia_modeset 1183744 13 nvidia_drm, Live 0xffffffffc1fc1000 (PO)
+kvm_intel 303104 0 - Live 0xffffffffc1f76000
+snd_hda_codec_generic 81920 1 snd_hda_codec_realtek, Live 0xffffffffc1f61000
+snd_hda_ '#`Ucodec_hdmi 61440 1 - Live 0xffffffffc1f51000
+kvm 864256 1 kvm_intel, Live 0xffffffffc1e7d000
+nvidia 19791872 584 nvidia_uvm,nvidia_modeset, Live 0xffffffffc0b9c000 (PO)
+ath10k_pci 45056 0 - Live 0xffffffffc0b90000
+ledtrig_audio 16384 2 snd_ctl_led,snd_hda_codec_generic, Live 0xffffffffc08d4000
+crct10dif_pclmul 16384 1 - Live 0xffffffffc08e3000
+ghash_clmulni_intel 16384 0 - Live 0xffffffffc08cf000
+aesni_intel 376832 29 - Live 0xffffffffc0b33000
+i915 2400256 7 - Live 0xffffffffc08e8000
+ath10k_core 507904 1 ath10k_pci, Live 0xffffffffc0852000
+crypto_simd 16384 1 aesni_intel, Live 0xffffffffc084d000
+snd_hda_intel 53248 4 - Live 0xffffffffc083f000
+cryptd 24576 10 ghash_clmulni_intel,crypto_simd, Live 0xffffffffc0838000
+ath 36864 1 ath10k_core, Live 0xffffffffc06cd000
+mac80211 1028096 1 ath10k_core, Live 0xffffffffc073c000
+rapl 20480 0 - Live 0xffffffffc06bd000
+snd_intel_dspcfg 28672 1 snd_hda_intel, Live 0xffffffffc06c5000
+snd_intel_sdw_acpi 20480 1 snd_intel_dspcfg, Live 0xffffffffc06b1000
+drm_kms_helper 253952 2 nvidia_drm,i915, Live 0xffffffffc06fd000
+snd_hda_codec 147456 4 snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel, Live 0xffffffffc06d8000
+intel_cstate 20480 0 - Live 0xffffffffc06b7000
+cfg80211 888832 3 ath10k_core,ath,mac80211, Live 0xffffffffc05d7000
+snd_hda_core 94208 5 snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec, Live 0xffffffffc05bf000
+snd_hwdep 16384 1 snd_hda_codec, Live 0xffffffffc05ba000
+libarc4 16384 1 mac80211, Live 0xffffffffc0454000
+snd_seq_midi 20480 0 - Live 0xffffffffc05b4000
+cec 53248 2 i915,drm_kms_helper, Live 0xffffffffc05a6000
+ee1004 20480 0 - Live 0xffffffffc054d000
+snd_pcm 114688 4 snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_core, Live 0xffffffffc0530000
+snd_seq_midi_event 16384 1 snd_seq_midi, Live 0xffffffffc033e000
+rc_core 61440 1 cec, Live 0xffffffffc0520000
+snd_rawmidi 36864 1 snd_seq_midi, Live 0xffffffffc0508000
+snd_seq 73728 2 snd_seq_midi,snd_seq_midi_event, Live 0xffffffffc04f5000
+joydev 286 '#`U72 0 - Live 0xffffffffc04ed000
+input_leds 16384 0 - Live 0xffffffffc0331000
+serio_raw 20480 0 - Live 0xffffffffc04e7000
+snd_seq_device 16384 3 snd_seq_midi,snd_rawmidi,snd_seq, Live 0xffffffffc0416000
+i2c_algo_bit 16384 1 i915, Live 0xffffffffc03e8000
+intel_pch_thermal 20480 0 - Live 0xffffffffc03e2000
+hid_multitouch 28672 0 - Live 0xffffffffc0336000
+snd_timer 40960 2 snd_pcm,snd_seq, Live 0xffffffffc0434000
+mei_me 40960 1 - Live 0xffffffffc0515000
+snd 94208 20 snd_ctl_led,snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hwdep,snd_pcm,snd_rawmidi,snd_seq,snd_seq_device,snd_timer, Live 0xffffffffc0355000
+fb_sys_fops 16384 1 drm_kms_helper, Live 0xffffffffc032c000
+syscopyarea 16384 1 drm_kms_helper, Live 0xffffffffc03d3000
+mei 131072 3 mei_hdcp,mei_me, Live 0xffffffffc0557000
+sysfillrect 16384 1 drm_kms_helper, Live 0xffffffffc0348000
+sysimgblt 16384 1 drm_kms_helper, Live 0xffffffffc0350000
+acpi_pad 184320 0 - Live 0xffffffffc0578000
+soundcore 16384 2 snd_ctl_led,snd, Live 0xffffffffc0343000
+mac_hid 16384 0 - Live 0xffffffffc0327000
+acer_wmi 24576 0 - Live 0xffffffffc0320000
+efi_pstore 16384 0 - Live 0xffffffffc0318000
+sparse_keymap 16384 1 acer_wmi, Live 0xffffffffc0313000
+intel_wmi_thunderbolt 20480 0 - Live 0xffffffffc030d000
+wmi_bmof 16384 0 - Live 0xffffffffc0308000
+sch_fq_codel 20480 2 - Live 0xffffffffc02cf000
+msr 16384 0 - Live 0xffffffffc02ca000
+parport_pc 45056 0 - Live 0xffffffffc02be000
+ppdev 24576 0 - Live 0xffffffffc02b7000
+lp 20480 0 - Live 0xffffffffc0295000
+parport 65536 3 parport_pc,ppdev,lp, Live 0xffffffffc02a6000
+drm 557056 15 nvidia_drm,i915,drm_kms_helper, Live 0xffffffffc045e000
+ip_tables 32768 0 - Live 0xffffffffc0263000
+x_tables 49152 1 ip_tables, Live 0xffffffffc0256000
+autofs4 45056 2 - Live 0xffffffffc022c000
+hid_generic 16384 0 - Live 0xffffffffc0227000
+rtsx_pci_sdmmc 28672 0 - Live 0xffffffffc021b000
+crc32_pclmul 16384 0 - Live 0xffffffffc0459000
+i2c_i801 36864 0 - Live 0xffffffffc044a000
+i2c_smbus 20480 1 i2c_i801, Live 0xffffffffc044100 '#`U0
+r8169 77824 0 - Live 0xffffffffc0420000
+rtsx_pci 94208 1 rtsx_pci_sdmmc, Live 0xffffffffc03fe000
+realtek 32768 1 - Live 0xffffffffc03f1000
+intel_lpss_pci 24576 0 - Live 0xffffffffc03db000
+ahci 40960 3 - Live 0xffffffffc03c8000
+intel_lpss 16384 1 intel_lpss_pci, Live 0xffffffffc03bf000
+libahci 36864 1 ahci, Live 0xffffffffc03b0000
+idma64 20480 0 - Live 0xffffffffc03a6000
+xhci_pci 24576 0 - Live 0xffffffffc039a000
+xhci_pci_renesas 20480 1 xhci_pci, Live 0xffffffffc0394000
+i2c_hid_acpi 16384 0 - Live 0xffffffffc0303000
+i2c_hid 28672 1 i2c_hid_acpi, Live 0xffffffffc02fb000
+hid 139264 3 hid_multitouch,hid_generic,i2c_hid, Live 0xffffffffc0371000
+wmi 32768 3 acer_wmi,intel_wmi_thunderbolt,wmi_bmof, Live 0xffffffffc029d000
+video 53248 2 i915,acer_wmi, Live 0xffffffffc0248000
+pinctrl_sunrisepoint 28672 1 - Live 0xffffffffc023c000
+llrect 16384 1 drm_kms_helper, Live 0xffffffffc0348000
+sysimgblt 16384 1 drm_kms_helper, Live 0xffffffffc0350000
+acpi_pad 184320 0 - Live 0xffffffffc0578000
+soundcore 16384 2 snd_ctl_led,snd, Live 0xffffffffc0343000
+mac_hid 16384 0 - Live 0xffffffffc0327000
+acer_wmi 24576 0 - Live 0xffffffffc0320000
+efi_pstore 16384 0 - Live 0xffffffffc0318000
+sparse_keymap 16384 1 acer_wmi, Live 0xffffffffc0313000
+intel_wmi_thunderbolt 20480 0 - Live 0xffffffffc030d000
+wmi_bmof 16384 0 - Live 0xffffffffc0308000
+sch_fq_codel 20480 2 - Live 0xffffffffc02cf000
+msr 16384 0 - Live 0xffffffffc02ca000
+parport_pc 45056 0 - Live 0xffffffffc02be000
+ppdev 24576 0 - Live 0xffffffffc02b7000
+lp 20480 0 - Live 0xffffffffc0295000
+parport 65536 3 parport_pc,ppdev,lp, Live 0xffffffffc02a6000
+drm 557056 15 nvidia_drm,i915,drm_kms_helper, Live 0xffffffffc045e000
+ip_tables 32768 0 - Live 0xffffffffc0263000
+x_tables 49152 1 ip_tables, Live 0xffffffffc0256000
+autofs4 45056 2 - Live 0xffffffffc022c000
+hid_generic 16384 0 - Live 0xffffffffc0227000
+rtsx_pci_sdmmc 28672 0 - Live 0xffffffffc021b000
+crc32_pclmul 16384 0 - Live 0xffffffffc0459000
+i2c_i801 36864 0 - Live 0xffffffffc044a000
+i2c_smbus 20480 1 i2c_i801, Live 0xffffffffc044100 '#`U
+
+
+---------------------------------                         
+   /proc/21378/maps                         
+---------------------------------
+
+557d709a6000-557d709a7000 r--p 00000000 08:07 3034513                    /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+557d709a7000-557d709a8000 r-xp 00001000 08:07 3034513                    /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+557d709a8000-557d709a9000 r--p 00002000 08:07 3034513                    /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+557d709a9000-557d709aa000 r--p 00002000 08:07 3034513                    /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+557d709aa000-557d709ab000 rw-p 00003000 08:07 3034513                    /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+557d7175e000-557d7177f000 rw-p 00000000 00:00 0                          [heap]
+7f3f25de5000-7f3f25de6000 ---p 00000000 00:00 0 
+7f3f25de6000-7f3f265e6000 rw-p 00000000 00:00 0 
+7f3f265e6000-7f3f265e9000 rw-p 00000000 00:00 0 
+7f3f265e9000-7f3f2660b000 r--p 00000000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2660b000-7f3f26783000 r-xp 00022000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26783000-7f3f267d1000 r--p 0019a000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d1000-7f3f267d5000 r--p 001e7000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d5000-7f3f267d7000 rw-p 001eb000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d7000-7f3f267db000 rw-p 00000000 00:00 0 
+7f3f267db000-7f3f267e1000 r--p 00000000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e1000-7f3f267f2000 r-xp 00006000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f2000-7f3f267f8000 r--p 00017000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f8000-7f3f267f9000 r--p 0001c000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f9000-7f3f267fa000 rw-p 0001d000 08:06 2231370                    /usr/lib/x86_64-l '#`Uinux-gnu/libpthread-2.31.so
+7f3f267fa000-7f3f26800000 rw-p 00000000 00:00 0 
+7f3f2681f000-7f3f26820000 r--p 00000000 08:06 2231341                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26820000-7f3f26843000 r-xp 00001000 08:06 2231341                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26843000-7f3f2684b000 r--p 00024000 08:06 2231341                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2684c000-7f3f2684d000 r--p 0002c000 08:06 2231341                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2684d000-7f3f2684e000 rw-p 0002d000 08:06 2231341                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2684e000-7f3f2684f000 rw-p 00000000 00:00 0 
+7fffdd625000-7fffdd646000 rw-p 00000000 00:00 0                          [stack]
+7fffdd7c6000-7fffdd7ca000 r--p 00000000 00:00 0                          [vvar]
+7fffdd7ca000-7fffdd7cc000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+-7f3f26783000 r-xp 00022000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26783000-7f3f267d1000 r--p 0019a000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d1000-7f3f267d5000 r--p 001e7000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d5000-7f3f267d7000 rw-p 001eb000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d7000-7f3f267db000 rw-p 00000000 00:00 0 
+7f3f267db000-7f3f267e1000 r--p 00000000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e1000-7f3f267f2000 r-xp 00006000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f2000-7f3f267f8000 r--p 00017000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f8000-7f3f267f9000 r--p 0001c000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f9000-7f3f267fa000 rw-p 0001d000 08:06 2231370                    /usr/lib/x86_64-l '#`U
+
+
+---------------------------------                         
+   /proc/21378/smaps                         
+---------------------------------
+
+557d709a6000-557d709a7000 r--p 00000000 08:07 3034513                    /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         4 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me dw sd 
+557d709a7000-557d709a8000 r-xp 00001000 08:07 3034513                    /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         4 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd ex mr mw me dw sd 
+557d709a8000-557d709a9000 r--p 00002000 08:07 3034513                    /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         4 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:         '#`U0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me dw sd 
+557d709a9000-557d709aa000 r--p 00002000 08:07 3034513                    /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me dw ac sd 
+557d709aa000-557d709ab000 rw-p 00003000 08:07 3034513                    /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd wr mr mw me dw ac sd 
+557d7175e000-557d7177f000 rw-p 00000000 00:00 0                          [heap]
+Size:                132 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                  24 kB
+Pss:                  24 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:        24 kB
+Referenced:           24 kB
+Anonymous:            24 kB
+LazyFree:        '#`U       0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd wr mr mw me ac sd 
+7f3f25de5000-7f3f25de6000 ---p 00000000 00:00 0 
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: mr mw me sd 
+7f3f25de6000-7f3f265e6000 rw-p 00000000 00:00 0 
+Size:               8192 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   8 kB
+Pss:                   8 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         8 kB
+Referenced:            8 kB
+Anonymous:             8 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd wr mr mw me ac sd 
+7f3f265e6000-7f3f265e9000 rw-p 00000000 00:00 0 
+Size:                 12 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   8 kB
+Pss:                   8 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         8 kB
+Referenced:            4 kB
+Anonymous:             8 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:  '#`U        0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd wr mr mw me ac sd 
+7f3f265e9000-7f3f2660b000 r--p 00000000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+Size:                136 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                 136 kB
+Pss:                   0 kB
+Shared_Clean:        136 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:          136 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me sd 
+7f3f2660b000-7f3f26783000 r-xp 00022000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+Size:               1504 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                 968 kB
+Pss:                   6 kB
+Shared_Clean:        968 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:          968 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd ex mr mw me sd 
+7f3f26783000-7f3f267d1000 r--p 0019a000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+Size:                312 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                 176 kB
+Pss:                   1 kB
+Shared_Clean:        176 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:          176 kB
+Anonymous:            '#`U  0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me sd 
+7f3f267d1000-7f3f267d5000 r--p 001e7000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+Size:                 16 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                  16 kB
+Pss:                  16 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:        16 kB
+Referenced:           12 kB
+Anonymous:            16 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me ac sd 
+7f3f267d5000-7f3f267d7000 rw-p 001eb000 08:06 2231349                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+Size:                  8 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   8 kB
+Pss:                   8 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         8 kB
+Referenced:            8 kB
+Anonymous:             8 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd wr mr mw me ac sd 
+7f3f267d7000-7f3f267db000 rw-p 00000000 00:00 0 
+Size:                 16 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                  12 kB
+Pss:                  12 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:        12 kB
+Refere '#`Unced:           12 kB
+Anonymous:            12 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd wr mr mw me ac sd 
+7f3f267db000-7f3f267e1000 r--p 00000000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+Size:                 24 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                  24 kB
+Pss:                   0 kB
+Shared_Clean:         24 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:           24 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me sd 
+7f3f267e1000-7f3f267f2000 r-xp 00006000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+Size:                 68 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                  64 kB
+Pss:                   0 kB
+Shared_Clean:         64 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:           64 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd ex mr mw me sd 
+7f3f267f2000-7f3f267f8000 r--p 00017000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+Size:                 24 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   '#`U 0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me sd 
+7f3f267f8000-7f3f267f9000 r--p 0001c000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me ac sd 
+7f3f267f9000-7f3f267fa000 rw-p 0001d000 08:06 2231370                    /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd wr mr mw me ac sd 
+7f3f267fa000-7f3f26800000 rw-p 00000000 00:00 0 
+Size:                 24 kB
+KernelPageSize:        4 kB
+MMUPageSize:            '#`U4 kB
+Rss:                  12 kB
+Pss:                  12 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:        12 kB
+Referenced:           12 kB
+Anonymous:            12 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd wr mr mw me ac sd 
+7f3f2681f000-7f3f26820000 r--p 00000000 08:06 2231341                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   0 kB
+Shared_Clean:          4 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me dw sd 
+7f3f26820000-7f3f26843000 r-xp 00001000 08:06 2231341                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+Size:                140 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                 140 kB
+Pss:                   0 kB
+Shared_Clean:        140 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:          140 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd ex mr mw me dw sd 
+7f3f26843000-7f3f2684b000 r--p 00024000 08:06 2231341                    /usr/lib/x '#`U86_64-linux-gnu/ld-2.31.so
+Size:                 32 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                  32 kB
+Pss:                   0 kB
+Shared_Clean:         32 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:           32 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me dw sd 
+7f3f2684c000-7f3f2684d000 r--p 0002c000 08:06 2231341                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr mw me dw ac sd 
+7f3f2684d000-7f3f2684e000 rw-p 0002d000 08:06 2231341                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: '#`U rd wr mr mw me dw ac sd 
+7f3f2684e000-7f3f2684f000 rw-p 00000000 00:00 0 
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd wr mr mw me ac sd 
+7fffdd625000-7fffdd646000 rw-p 00000000 00:00 0                          [stack]
+Size:                132 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                  12 kB
+Pss:                  12 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:        12 kB
+Referenced:            8 kB
+Anonymous:            12 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd wr mr mw me gd ac 
+7fffdd7c6000-7fffdd7ca000 r--p 00000000 00:00 0                          [vvar]
+Size:                 16 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr p '#`Uf io de dd sd 
+7fffdd7ca000-7fffdd7cc000 r-xp 00000000 00:00 0                          [vdso]
+Size:                  8 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   0 kB
+Shared_Clean:          4 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd ex mr mw me de sd 
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: ex 
+d7c6000-7fffdd7ca000 r--p 00000000 00:00 0                          [vvar]
+Size:                 16 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:    0
+VmFlags: rd mr p '#`U
+
+
+---------------------------------                         
+   /proc/21378/pagemap                         
+---------------------------------
+
+addr pfn soft-dirty file/shared swapped present library
+557d709a6000 12b2a7 1 1 0 1 /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+557d709a7000 1ab2e9 1 1 0 1 /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+557d709a8000 263a92 1 1 0 1 /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+557d709a9000 26ec30 1 0 0 1 /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+557d709aa000 25571f 1 0 0 1 /home/amunra23/studying/sem6/os/os_github/lab_01/app.exe
+557d7175e000 187ccb 1 0 0 1 [heap]
+557d7175f000 245c4e 1 0 0 1 [heap]
+557d71760000 251b5e 1 0 0 1 [heap]
+557d71761000 1a067d 1 0 0 1 [heap]
+557d71762000 231d4f 1 0 0 1 [heap]
+557d71763000 20cfb7 1 0 0 1 [heap]
+557d71764000 0 1 0 0 0 [heap]
+557d71765000 0 1 0 0 0 [heap]
+557d71766000 0 1 0 0 0 [heap]
+557d71767000 0 1 0 0 0 [heap]
+557d71768000 0 1 0 0 0 [heap]
+557d71769000 0 1 0 0 0 [heap]
+557d7176a000 0 1 0 0 0 [heap]
+557d7176b000 0 1 0 0 0 [heap]
+557d7176c000 0 1 0 0 0 [heap]
+557d7176d000 0 1 0 0 0 [heap]
+557d7176e000 0 1 0 0 0 [heap]
+557d7176f000 0 1 0 0 0 [heap]
+557d71770000 0 1 0 0 0 [heap]
+557d71771000 0 1 0 0 0 [heap]
+557d71772000 0 1 0 0 0 [heap]
+557d71773000 0 1 0 0 0 [heap]
+557d71774000 0 1 0 0 0 [heap]
+557d71775000 0 1 0 0 0 [heap]
+557d71776000 0 1 0 0 0 [heap]
+557d71777000 0 1 0 0 0 [heap]
+557d71778000 0 1 0 0 0 [heap]
+557d71779000 0 1 0 0 0 [heap]
+557d7177a000 0 1 0 0 0 [heap]
+557d7177b000 0 1 0 0 0 [heap]
+557d7177c000 0 1 0 0 0 [heap]
+557d7177d000 0 1 0 0 0 [heap]
+557d7177e000 0 1 0 0 0 [heap]
+7f3f25de5000 0 1 0 0 0 
+7f3f25de6000 0 1 0 0 0 
+7f3f25de7000 0 1 0 0 0 
+7f3f25de8000 0 1 0 0 0 
+7f3f25de9000 0 1 0 0 0 
+7f3f25dea000 0 1 0 0 0 
+7f3f25deb000 0 1 0 0 0 
+7f3f25dec000 0 1 0 0 0 
+7f3f25ded000 0 1 0 0 0 
+7f3f25dee000 0 1 0 0 0 
+7f3f25def000 0 1 0 0 0 
+7f3f25df0000 0 1 0 0 0 
+7f3f25df1000 0 1 0 0 0 
+7f3f25df2000 0 1 0 0 0 
+7f3f25df3000 0 1 0 0 0 
+7f3f25df4000 0 1 0 0 0 
+7f3f25df5000 0 1 0 0 0 
+7f3f25df6000 0 1 0 0 0 
+7f3f25df7000 0 1 0 0 0 
+7f3f25df8000 0 1 0 0 0 
+7f3f25df9000 0 1 0 0 0 
+7f3f25dfa000 0 1 0 0 0 
+7f3f25dfb000 0 1 0 0 0 
+7f3f25dfc000 0 1 0 0 0 
+7f3f25dfd000 0 1 0 0 0 
+7f3f25dfe000 0 1 0 0 0 
+7f3f25dff000 0 1 0 0 0 
+7f3f25e00000 0 1 0 0 0 
+7f3f25e01000 0 1 0 0 0 
+7f3f25e02000 0 1 0 0 0 
+7f3f25e03000 0 1 0 0 0 
+7f3f25e04000 0 1 0 0 0 
+7f3f25e05000 0 1 0 0 0 
+7f3f25e06000 0 1 0 0 0 
+7f3f25e07000 0 1 0 0 0 
+7f3f25e08000 0 1 0 0 0 
+7f3f25e09000 0 1 0 0 0 
+7f3f25e0a000 0 1 0 0 0 
+7f3f25e0b000 0 1 0 0 0 
+7f3f25e0c000 0 1 0 0 0 
+7f3f25e0d000 0 1 0 0 0 
+7f3f25e0e000 0 1 0 0 0 
+7f3f25e0f000 0 1 0 0 0 
+7f3f25e10000 0 1 0 0 0 
+7f3f25e11000 0 1 0 0 0 
+7f3f25e12000 0 1 0 0 0 
+7f3f25e13000 0 1 0 0 0 
+7f3f25e14000 0 1 0 0 0 
+7f3f25e15000 0 1 0 0 0 
+7f3f25e16000 0 1 0 0 0 
+7f3f25e17000 0 1 0 0 0 
+7f3f25e18000 0 1 0 0 0 
+7f3f25e19000 0 1 0 0 0 
+7f3f25e1a000 0 1 0 0 0 
+7f3f25e1b000 0 1 0 0 0 
+7f3f25e1c000 0 1 0 0 0 
+7f3f25e1d000 0 1 0 0 0 
+7f3f25e1e000 0 1 0 0 0 
+7f3f25e1f000 0 1 0 0 0 
+7f3f25e20000 0 1 0 0 0 
+7f3f25e21000 0 1 0 0 0 
+7f3f25e22000 0 1 0 0 0 
+7f3f25e23000 0 1 0 0 0 
+7f3f25e24000 0 1 0 0 0 
+7f3f25e25000 0 1 0 0 0 
+7f3f25e26000 0 1 0 0 0 
+7f3f25e27000 0 1 0 0 0 
+7f3f25e28000 0 1 0 0 0 
+7f3f25e29000 0 1 0 0 0 
+7f3f25e2a000 0 1 0 0 0 
+7f3f25e2b000 0 1 0 0 0 
+7f3f25e2c000 0 1 0 0 0 
+7f3f25e2d000 0 1 0 0 0 
+7f3f25e2e000 0 1 0 0 0 
+7f3f25e2f000 0 1 0 0 0 
+7f3f25e30000 0 1 0 0 0 
+7f3f25e31000 0 1 0 0 0 
+7f3f25e32000 0 1 0 0 0 
+7f3f25e33000 0 1 0 0 0 
+7f3f25e34000 0 1 0 0 0 
+7f3f25e35000 0 1 0 0 0 
+7f3f25e36000 0 1 0 0 0 
+7f3f25e37000 0 1 0 0 0 
+7f3f25e38000 0 1 0 0 0 
+7f3f25e39000 0 1 0 0 0 
+7f3f25e3a000 0 1 0 0 0 
+7f3f25e3b000 0 1 0 0 0 
+7f3f25e3c000 0 1 0 0 0 
+7f3f25e3d000 0 1 0 0 0 
+7f3f25e3e000 0 1 0 0 0 
+7f3f25e3f000 0 1 0 0 0 
+7f3f25e40000 0 1 0 0 0 
+7f3f25e41000 0 1 0 0 0 
+7f3f25e42000 0 1 0 0 0 
+7f3f25e43000 0 1 0 0 0 
+7f3f25e44000 0 1 0 0 0 
+7f3f25e45000 0 1 0 0 0 
+7f3f25e46000 0 1 0 0 0 
+7f3f25e47000 0 1 0 0 0 
+7f3f25e48000 0 1 0 0 0 
+7f3f25e49000 0 1 0 0 0 
+7f3f25e4a000 0 1 0 0 0 
+7f3f25e4b000 0 1 0 0 0 
+7f3f25e4c000 0 1 0 0 0 
+7f3f25e4d000 0 1 0 0 0 
+7f3f25e4e000 0 1 0 0 0 
+7f3f25e4f000 0 1 0 0 0 
+7f3f25e50000 0 1 0 0 0 
+7f3f25e51000 0 1 0 0 0 
+7f3f25e52000 0 1 0 0 0 
+7f3f25e53000 0 1 0 0 0 
+7f3f25e54000 0 1 0 0 0 
+7f3f25e55000 0 1 0 0 0 
+7f3f25e56000 0 1 0 0 0 
+7f3f25e57000 0 1 0 0 0 
+7f3f25e58000 0 1 0 0 0 
+7f3f25e59000 0 1 0 0 0 
+7f3f25e5a000 0 1 0 0 0 
+7f3f25e5b000 0 1 0 0 0 
+7f3f25e5c000 0 1 0 0 0 
+7f3f25e5d000 0 1 0 0 0 
+7f3f25e5e000 0 1 0 0 0 
+7f3f25e5f000 0 1 0 0 0 
+7f3f25e60000 0 1 0 0 0 
+7f3f25e61000 0 1 0 0 0 
+7f3f25e62000 0 1 0 0 0 
+7f3f25e63000 0 1 0 0 0 
+7f3f25e64000 0 1 0 0 0 
+7f3f25e65000 0 1 0 0 0 
+7f3f25e66000 0 1 0 0 0 
+7f3f25e67000 0 1 0 0 0 
+7f3f25e68000 0 1 0 0 0 
+7f3f25e69000 0 1 0 0 0 
+7f3f25e6a000 0 1 0 0 0 
+7f3f25e6b000 0 1 0 0 0 
+7f3f25e6c000 0 1 0 0 0 
+7f3f25e6d000 0 1 0 0 0 
+7f3f25e6e000 0 1 0 0 0 
+7f3f25e6f000 0 1 0 0 0 
+7f3f25e70000 0 1 0 0 0 
+7f3f25e71000 0 1 0 0 0 
+7f3f25e72000 0 1 0 0 0 
+7f3f25e73000 0 1 0 0 0 
+7f3f25e74000 0 1 0 0 0 
+7f3f25e75000 0 1 0 0 0 
+7f3f25e76000 0 1 0 0 0 
+7f3f25e77000 0 1 0 0 0 
+7f3f25e78000 0 1 0 0 0 
+7f3f25e79000 0 1 0 0 0 
+7f3f25e7a000 0 1 0 0 0 
+7f3f25e7b000 0 1 0 0 0 
+7f3f25e7c000 0 1 0 0 0 
+7f3f25e7d000 0 1 0 0 0 
+7f3f25e7e000 0 1 0 0 0 
+7f3f25e7f000 0 1 0 0 0 
+7f3f25e80000 0 1 0 0 0 
+7f3f25e81000 0 1 0 0 0 
+7f3f25e82000 0 1 0 0 0 
+7f3f25e83000 0 1 0 0 0 
+7f3f25e84000 0 1 0 0 0 
+7f3f25e85000 0 1 0 0 0 
+7f3f25e86000 0 1 0 0 0 
+7f3f25e87000 0 1 0 0 0 
+7f3f25e88000 0 1 0 0 0 
+7f3f25e89000 0 1 0 0 0 
+7f3f25e8a000 0 1 0 0 0 
+7f3f25e8b000 0 1 0 0 0 
+7f3f25e8c000 0 1 0 0 0 
+7f3f25e8d000 0 1 0 0 0 
+7f3f25e8e000 0 1 0 0 0 
+7f3f25e8f000 0 1 0 0 0 
+7f3f25e90000 0 1 0 0 0 
+7f3f25e91000 0 1 0 0 0 
+7f3f25e92000 0 1 0 0 0 
+7f3f25e93000 0 1 0 0 0 
+7f3f25e94000 0 1 0 0 0 
+7f3f25e95000 0 1 0 0 0 
+7f3f25e96000 0 1 0 0 0 
+7f3f25e97000 0 1 0 0 0 
+7f3f25e98000 0 1 0 0 0 
+7f3f25e99000 0 1 0 0 0 
+7f3f25e9a000 0 1 0 0 0 
+7f3f25e9b000 0 1 0 0 0 
+7f3f25e9c000 0 1 0 0 0 
+7f3f25e9d000 0 1 0 0 0 
+7f3f25e9e000 0 1 0 0 0 
+7f3f25e9f000 0 1 0 0 0 
+7f3f25ea0000 0 1 0 0 0 
+7f3f25ea1000 0 1 0 0 0 
+7f3f25ea2000 0 1 0 0 0 
+7f3f25ea3000 0 1 0 0 0 
+7f3f25ea4000 0 1 0 0 0 
+7f3f25ea5000 0 1 0 0 0 
+7f3f25ea6000 0 1 0 0 0 
+7f3f25ea7000 0 1 0 0 0 
+7f3f25ea8000 0 1 0 0 0 
+7f3f25ea9000 0 1 0 0 0 
+7f3f25eaa000 0 1 0 0 0 
+7f3f25eab000 0 1 0 0 0 
+7f3f25eac000 0 1 0 0 0 
+7f3f25ead000 0 1 0 0 0 
+7f3f25eae000 0 1 0 0 0 
+7f3f25eaf000 0 1 0 0 0 
+7f3f25eb0000 0 1 0 0 0 
+7f3f25eb1000 0 1 0 0 0 
+7f3f25eb2000 0 1 0 0 0 
+7f3f25eb3000 0 1 0 0 0 
+7f3f25eb4000 0 1 0 0 0 
+7f3f25eb5000 0 1 0 0 0 
+7f3f25eb6000 0 1 0 0 0 
+7f3f25eb7000 0 1 0 0 0 
+7f3f25eb8000 0 1 0 0 0 
+7f3f25eb9000 0 1 0 0 0 
+7f3f25eba000 0 1 0 0 0 
+7f3f25ebb000 0 1 0 0 0 
+7f3f25ebc000 0 1 0 0 0 
+7f3f25ebd000 0 1 0 0 0 
+7f3f25ebe000 0 1 0 0 0 
+7f3f25ebf000 0 1 0 0 0 
+7f3f25ec0000 0 1 0 0 0 
+7f3f25ec1000 0 1 0 0 0 
+7f3f25ec2000 0 1 0 0 0 
+7f3f25ec3000 0 1 0 0 0 
+7f3f25ec4000 0 1 0 0 0 
+7f3f25ec5000 0 1 0 0 0 
+7f3f25ec6000 0 1 0 0 0 
+7f3f25ec7000 0 1 0 0 0 
+7f3f25ec8000 0 1 0 0 0 
+7f3f25ec9000 0 1 0 0 0 
+7f3f25eca000 0 1 0 0 0 
+7f3f25ecb000 0 1 0 0 0 
+7f3f25ecc000 0 1 0 0 0 
+7f3f25ecd000 0 1 0 0 0 
+7f3f25ece000 0 1 0 0 0 
+7f3f25ecf000 0 1 0 0 0 
+7f3f25ed0000 0 1 0 0 0 
+7f3f25ed1000 0 1 0 0 0 
+7f3f25ed2000 0 1 0 0 0 
+7f3f25ed3000 0 1 0 0 0 
+7f3f25ed4000 0 1 0 0 0 
+7f3f25ed5000 0 1 0 0 0 
+7f3f25ed6000 0 1 0 0 0 
+7f3f25ed7000 0 1 0 0 0 
+7f3f25ed8000 0 1 0 0 0 
+7f3f25ed9000 0 1 0 0 0 
+7f3f25eda000 0 1 0 0 0 
+7f3f25edb000 0 1 0 0 0 
+7f3f25edc000 0 1 0 0 0 
+7f3f25edd000 0 1 0 0 0 
+7f3f25ede000 0 1 0 0 0 
+7f3f25edf000 0 1 0 0 0 
+7f3f25ee0000 0 1 0 0 0 
+7f3f25ee1000 0 1 0 0 0 
+7f3f25ee2000 0 1 0 0 0 
+7f3f25ee3000 0 1 0 0 0 
+7f3f25ee4000 0 1 0 0 0 
+7f3f25ee5000 0 1 0 0 0 
+7f3f25ee6000 0 1 0 0 0 
+7f3f25ee7000 0 1 0 0 0 
+7f3f25ee8000 0 1 0 0 0 
+7f3f25ee9000 0 1 0 0 0 
+7f3f25eea000 0 1 0 0 0 
+7f3f25eeb000 0 1 0 0 0 
+7f3f25eec000 0 1 0 0 0 
+7f3f25eed000 0 1 0 0 0 
+7f3f25eee000 0 1 0 0 0 
+7f3f25eef000 0 1 0 0 0 
+7f3f25ef0000 0 1 0 0 0 
+7f3f25ef1000 0 1 0 0 0 
+7f3f25ef2000 0 1 0 0 0 
+7f3f25ef3000 0 1 0 0 0 
+7f3f25ef4000 0 1 0 0 0 
+7f3f25ef5000 0 1 0 0 0 
+7f3f25ef6000 0 1 0 0 0 
+7f3f25ef7000 0 1 0 0 0 
+7f3f25ef8000 0 1 0 0 0 
+7f3f25ef9000 0 1 0 0 0 
+7f3f25efa000 0 1 0 0 0 
+7f3f25efb000 0 1 0 0 0 
+7f3f25efc000 0 1 0 0 0 
+7f3f25efd000 0 1 0 0 0 
+7f3f25efe000 0 1 0 0 0 
+7f3f25eff000 0 1 0 0 0 
+7f3f25f00000 0 1 0 0 0 
+7f3f25f01000 0 1 0 0 0 
+7f3f25f02000 0 1 0 0 0 
+7f3f25f03000 0 1 0 0 0 
+7f3f25f04000 0 1 0 0 0 
+7f3f25f05000 0 1 0 0 0 
+7f3f25f06000 0 1 0 0 0 
+7f3f25f07000 0 1 0 0 0 
+7f3f25f08000 0 1 0 0 0 
+7f3f25f09000 0 1 0 0 0 
+7f3f25f0a000 0 1 0 0 0 
+7f3f25f0b000 0 1 0 0 0 
+7f3f25f0c000 0 1 0 0 0 
+7f3f25f0d000 0 1 0 0 0 
+7f3f25f0e000 0 1 0 0 0 
+7f3f25f0f000 0 1 0 0 0 
+7f3f25f10000 0 1 0 0 0 
+7f3f25f11000 0 1 0 0 0 
+7f3f25f12000 0 1 0 0 0 
+7f3f25f13000 0 1 0 0 0 
+7f3f25f14000 0 1 0 0 0 
+7f3f25f15000 0 1 0 0 0 
+7f3f25f16000 0 1 0 0 0 
+7f3f25f17000 0 1 0 0 0 
+7f3f25f18000 0 1 0 0 0 
+7f3f25f19000 0 1 0 0 0 
+7f3f25f1a000 0 1 0 0 0 
+7f3f25f1b000 0 1 0 0 0 
+7f3f25f1c000 0 1 0 0 0 
+7f3f25f1d000 0 1 0 0 0 
+7f3f25f1e000 0 1 0 0 0 
+7f3f25f1f000 0 1 0 0 0 
+7f3f25f20000 0 1 0 0 0 
+7f3f25f21000 0 1 0 0 0 
+7f3f25f22000 0 1 0 0 0 
+7f3f25f23000 0 1 0 0 0 
+7f3f25f24000 0 1 0 0 0 
+7f3f25f25000 0 1 0 0 0 
+7f3f25f26000 0 1 0 0 0 
+7f3f25f27000 0 1 0 0 0 
+7f3f25f28000 0 1 0 0 0 
+7f3f25f29000 0 1 0 0 0 
+7f3f25f2a000 0 1 0 0 0 
+7f3f25f2b000 0 1 0 0 0 
+7f3f25f2c000 0 1 0 0 0 
+7f3f25f2d000 0 1 0 0 0 
+7f3f25f2e000 0 1 0 0 0 
+7f3f25f2f000 0 1 0 0 0 
+7f3f25f30000 0 1 0 0 0 
+7f3f25f31000 0 1 0 0 0 
+7f3f25f32000 0 1 0 0 0 
+7f3f25f33000 0 1 0 0 0 
+7f3f25f34000 0 1 0 0 0 
+7f3f25f35000 0 1 0 0 0 
+7f3f25f36000 0 1 0 0 0 
+7f3f25f37000 0 1 0 0 0 
+7f3f25f38000 0 1 0 0 0 
+7f3f25f39000 0 1 0 0 0 
+7f3f25f3a000 0 1 0 0 0 
+7f3f25f3b000 0 1 0 0 0 
+7f3f25f3c000 0 1 0 0 0 
+7f3f25f3d000 0 1 0 0 0 
+7f3f25f3e000 0 1 0 0 0 
+7f3f25f3f000 0 1 0 0 0 
+7f3f25f40000 0 1 0 0 0 
+7f3f25f41000 0 1 0 0 0 
+7f3f25f42000 0 1 0 0 0 
+7f3f25f43000 0 1 0 0 0 
+7f3f25f44000 0 1 0 0 0 
+7f3f25f45000 0 1 0 0 0 
+7f3f25f46000 0 1 0 0 0 
+7f3f25f47000 0 1 0 0 0 
+7f3f25f48000 0 1 0 0 0 
+7f3f25f49000 0 1 0 0 0 
+7f3f25f4a000 0 1 0 0 0 
+7f3f25f4b000 0 1 0 0 0 
+7f3f25f4c000 0 1 0 0 0 
+7f3f25f4d000 0 1 0 0 0 
+7f3f25f4e000 0 1 0 0 0 
+7f3f25f4f000 0 1 0 0 0 
+7f3f25f50000 0 1 0 0 0 
+7f3f25f51000 0 1 0 0 0 
+7f3f25f52000 0 1 0 0 0 
+7f3f25f53000 0 1 0 0 0 
+7f3f25f54000 0 1 0 0 0 
+7f3f25f55000 0 1 0 0 0 
+7f3f25f56000 0 1 0 0 0 
+7f3f25f57000 0 1 0 0 0 
+7f3f25f58000 0 1 0 0 0 
+7f3f25f59000 0 1 0 0 0 
+7f3f25f5a000 0 1 0 0 0 
+7f3f25f5b000 0 1 0 0 0 
+7f3f25f5c000 0 1 0 0 0 
+7f3f25f5d000 0 1 0 0 0 
+7f3f25f5e000 0 1 0 0 0 
+7f3f25f5f000 0 1 0 0 0 
+7f3f25f60000 0 1 0 0 0 
+7f3f25f61000 0 1 0 0 0 
+7f3f25f62000 0 1 0 0 0 
+7f3f25f63000 0 1 0 0 0 
+7f3f25f64000 0 1 0 0 0 
+7f3f25f65000 0 1 0 0 0 
+7f3f25f66000 0 1 0 0 0 
+7f3f25f67000 0 1 0 0 0 
+7f3f25f68000 0 1 0 0 0 
+7f3f25f69000 0 1 0 0 0 
+7f3f25f6a000 0 1 0 0 0 
+7f3f25f6b000 0 1 0 0 0 
+7f3f25f6c000 0 1 0 0 0 
+7f3f25f6d000 0 1 0 0 0 
+7f3f25f6e000 0 1 0 0 0 
+7f3f25f6f000 0 1 0 0 0 
+7f3f25f70000 0 1 0 0 0 
+7f3f25f71000 0 1 0 0 0 
+7f3f25f72000 0 1 0 0 0 
+7f3f25f73000 0 1 0 0 0 
+7f3f25f74000 0 1 0 0 0 
+7f3f25f75000 0 1 0 0 0 
+7f3f25f76000 0 1 0 0 0 
+7f3f25f77000 0 1 0 0 0 
+7f3f25f78000 0 1 0 0 0 
+7f3f25f79000 0 1 0 0 0 
+7f3f25f7a000 0 1 0 0 0 
+7f3f25f7b000 0 1 0 0 0 
+7f3f25f7c000 0 1 0 0 0 
+7f3f25f7d000 0 1 0 0 0 
+7f3f25f7e000 0 1 0 0 0 
+7f3f25f7f000 0 1 0 0 0 
+7f3f25f80000 0 1 0 0 0 
+7f3f25f81000 0 1 0 0 0 
+7f3f25f82000 0 1 0 0 0 
+7f3f25f83000 0 1 0 0 0 
+7f3f25f84000 0 1 0 0 0 
+7f3f25f85000 0 1 0 0 0 
+7f3f25f86000 0 1 0 0 0 
+7f3f25f87000 0 1 0 0 0 
+7f3f25f88000 0 1 0 0 0 
+7f3f25f89000 0 1 0 0 0 
+7f3f25f8a000 0 1 0 0 0 
+7f3f25f8b000 0 1 0 0 0 
+7f3f25f8c000 0 1 0 0 0 
+7f3f25f8d000 0 1 0 0 0 
+7f3f25f8e000 0 1 0 0 0 
+7f3f25f8f000 0 1 0 0 0 
+7f3f25f90000 0 1 0 0 0 
+7f3f25f91000 0 1 0 0 0 
+7f3f25f92000 0 1 0 0 0 
+7f3f25f93000 0 1 0 0 0 
+7f3f25f94000 0 1 0 0 0 
+7f3f25f95000 0 1 0 0 0 
+7f3f25f96000 0 1 0 0 0 
+7f3f25f97000 0 1 0 0 0 
+7f3f25f98000 0 1 0 0 0 
+7f3f25f99000 0 1 0 0 0 
+7f3f25f9a000 0 1 0 0 0 
+7f3f25f9b000 0 1 0 0 0 
+7f3f25f9c000 0 1 0 0 0 
+7f3f25f9d000 0 1 0 0 0 
+7f3f25f9e000 0 1 0 0 0 
+7f3f25f9f000 0 1 0 0 0 
+7f3f25fa0000 0 1 0 0 0 
+7f3f25fa1000 0 1 0 0 0 
+7f3f25fa2000 0 1 0 0 0 
+7f3f25fa3000 0 1 0 0 0 
+7f3f25fa4000 0 1 0 0 0 
+7f3f25fa5000 0 1 0 0 0 
+7f3f25fa6000 0 1 0 0 0 
+7f3f25fa7000 0 1 0 0 0 
+7f3f25fa8000 0 1 0 0 0 
+7f3f25fa9000 0 1 0 0 0 
+7f3f25faa000 0 1 0 0 0 
+7f3f25fab000 0 1 0 0 0 
+7f3f25fac000 0 1 0 0 0 
+7f3f25fad000 0 1 0 0 0 
+7f3f25fae000 0 1 0 0 0 
+7f3f25faf000 0 1 0 0 0 
+7f3f25fb0000 0 1 0 0 0 
+7f3f25fb1000 0 1 0 0 0 
+7f3f25fb2000 0 1 0 0 0 
+7f3f25fb3000 0 1 0 0 0 
+7f3f25fb4000 0 1 0 0 0 
+7f3f25fb5000 0 1 0 0 0 
+7f3f25fb6000 0 1 0 0 0 
+7f3f25fb7000 0 1 0 0 0 
+7f3f25fb8000 0 1 0 0 0 
+7f3f25fb9000 0 1 0 0 0 
+7f3f25fba000 0 1 0 0 0 
+7f3f25fbb000 0 1 0 0 0 
+7f3f25fbc000 0 1 0 0 0 
+7f3f25fbd000 0 1 0 0 0 
+7f3f25fbe000 0 1 0 0 0 
+7f3f25fbf000 0 1 0 0 0 
+7f3f25fc0000 0 1 0 0 0 
+7f3f25fc1000 0 1 0 0 0 
+7f3f25fc2000 0 1 0 0 0 
+7f3f25fc3000 0 1 0 0 0 
+7f3f25fc4000 0 1 0 0 0 
+7f3f25fc5000 0 1 0 0 0 
+7f3f25fc6000 0 1 0 0 0 
+7f3f25fc7000 0 1 0 0 0 
+7f3f25fc8000 0 1 0 0 0 
+7f3f25fc9000 0 1 0 0 0 
+7f3f25fca000 0 1 0 0 0 
+7f3f25fcb000 0 1 0 0 0 
+7f3f25fcc000 0 1 0 0 0 
+7f3f25fcd000 0 1 0 0 0 
+7f3f25fce000 0 1 0 0 0 
+7f3f25fcf000 0 1 0 0 0 
+7f3f25fd0000 0 1 0 0 0 
+7f3f25fd1000 0 1 0 0 0 
+7f3f25fd2000 0 1 0 0 0 
+7f3f25fd3000 0 1 0 0 0 
+7f3f25fd4000 0 1 0 0 0 
+7f3f25fd5000 0 1 0 0 0 
+7f3f25fd6000 0 1 0 0 0 
+7f3f25fd7000 0 1 0 0 0 
+7f3f25fd8000 0 1 0 0 0 
+7f3f25fd9000 0 1 0 0 0 
+7f3f25fda000 0 1 0 0 0 
+7f3f25fdb000 0 1 0 0 0 
+7f3f25fdc000 0 1 0 0 0 
+7f3f25fdd000 0 1 0 0 0 
+7f3f25fde000 0 1 0 0 0 
+7f3f25fdf000 0 1 0 0 0 
+7f3f25fe0000 0 1 0 0 0 
+7f3f25fe1000 0 1 0 0 0 
+7f3f25fe2000 0 1 0 0 0 
+7f3f25fe3000 0 1 0 0 0 
+7f3f25fe4000 0 1 0 0 0 
+7f3f25fe5000 0 1 0 0 0 
+7f3f25fe6000 0 1 0 0 0 
+7f3f25fe7000 0 1 0 0 0 
+7f3f25fe8000 0 1 0 0 0 
+7f3f25fe9000 0 1 0 0 0 
+7f3f25fea000 0 1 0 0 0 
+7f3f25feb000 0 1 0 0 0 
+7f3f25fec000 0 1 0 0 0 
+7f3f25fed000 0 1 0 0 0 
+7f3f25fee000 0 1 0 0 0 
+7f3f25fef000 0 1 0 0 0 
+7f3f25ff0000 0 1 0 0 0 
+7f3f25ff1000 0 1 0 0 0 
+7f3f25ff2000 0 1 0 0 0 
+7f3f25ff3000 0 1 0 0 0 
+7f3f25ff4000 0 1 0 0 0 
+7f3f25ff5000 0 1 0 0 0 
+7f3f25ff6000 0 1 0 0 0 
+7f3f25ff7000 0 1 0 0 0 
+7f3f25ff8000 0 1 0 0 0 
+7f3f25ff9000 0 1 0 0 0 
+7f3f25ffa000 0 1 0 0 0 
+7f3f25ffb000 0 1 0 0 0 
+7f3f25ffc000 0 1 0 0 0 
+7f3f25ffd000 0 1 0 0 0 
+7f3f25ffe000 0 1 0 0 0 
+7f3f25fff000 0 1 0 0 0 
+7f3f26000000 0 1 0 0 0 
+7f3f26001000 0 1 0 0 0 
+7f3f26002000 0 1 0 0 0 
+7f3f26003000 0 1 0 0 0 
+7f3f26004000 0 1 0 0 0 
+7f3f26005000 0 1 0 0 0 
+7f3f26006000 0 1 0 0 0 
+7f3f26007000 0 1 0 0 0 
+7f3f26008000 0 1 0 0 0 
+7f3f26009000 0 1 0 0 0 
+7f3f2600a000 0 1 0 0 0 
+7f3f2600b000 0 1 0 0 0 
+7f3f2600c000 0 1 0 0 0 
+7f3f2600d000 0 1 0 0 0 
+7f3f2600e000 0 1 0 0 0 
+7f3f2600f000 0 1 0 0 0 
+7f3f26010000 0 1 0 0 0 
+7f3f26011000 0 1 0 0 0 
+7f3f26012000 0 1 0 0 0 
+7f3f26013000 0 1 0 0 0 
+7f3f26014000 0 1 0 0 0 
+7f3f26015000 0 1 0 0 0 
+7f3f26016000 0 1 0 0 0 
+7f3f26017000 0 1 0 0 0 
+7f3f26018000 0 1 0 0 0 
+7f3f26019000 0 1 0 0 0 
+7f3f2601a000 0 1 0 0 0 
+7f3f2601b000 0 1 0 0 0 
+7f3f2601c000 0 1 0 0 0 
+7f3f2601d000 0 1 0 0 0 
+7f3f2601e000 0 1 0 0 0 
+7f3f2601f000 0 1 0 0 0 
+7f3f26020000 0 1 0 0 0 
+7f3f26021000 0 1 0 0 0 
+7f3f26022000 0 1 0 0 0 
+7f3f26023000 0 1 0 0 0 
+7f3f26024000 0 1 0 0 0 
+7f3f26025000 0 1 0 0 0 
+7f3f26026000 0 1 0 0 0 
+7f3f26027000 0 1 0 0 0 
+7f3f26028000 0 1 0 0 0 
+7f3f26029000 0 1 0 0 0 
+7f3f2602a000 0 1 0 0 0 
+7f3f2602b000 0 1 0 0 0 
+7f3f2602c000 0 1 0 0 0 
+7f3f2602d000 0 1 0 0 0 
+7f3f2602e000 0 1 0 0 0 
+7f3f2602f000 0 1 0 0 0 
+7f3f26030000 0 1 0 0 0 
+7f3f26031000 0 1 0 0 0 
+7f3f26032000 0 1 0 0 0 
+7f3f26033000 0 1 0 0 0 
+7f3f26034000 0 1 0 0 0 
+7f3f26035000 0 1 0 0 0 
+7f3f26036000 0 1 0 0 0 
+7f3f26037000 0 1 0 0 0 
+7f3f26038000 0 1 0 0 0 
+7f3f26039000 0 1 0 0 0 
+7f3f2603a000 0 1 0 0 0 
+7f3f2603b000 0 1 0 0 0 
+7f3f2603c000 0 1 0 0 0 
+7f3f2603d000 0 1 0 0 0 
+7f3f2603e000 0 1 0 0 0 
+7f3f2603f000 0 1 0 0 0 
+7f3f26040000 0 1 0 0 0 
+7f3f26041000 0 1 0 0 0 
+7f3f26042000 0 1 0 0 0 
+7f3f26043000 0 1 0 0 0 
+7f3f26044000 0 1 0 0 0 
+7f3f26045000 0 1 0 0 0 
+7f3f26046000 0 1 0 0 0 
+7f3f26047000 0 1 0 0 0 
+7f3f26048000 0 1 0 0 0 
+7f3f26049000 0 1 0 0 0 
+7f3f2604a000 0 1 0 0 0 
+7f3f2604b000 0 1 0 0 0 
+7f3f2604c000 0 1 0 0 0 
+7f3f2604d000 0 1 0 0 0 
+7f3f2604e000 0 1 0 0 0 
+7f3f2604f000 0 1 0 0 0 
+7f3f26050000 0 1 0 0 0 
+7f3f26051000 0 1 0 0 0 
+7f3f26052000 0 1 0 0 0 
+7f3f26053000 0 1 0 0 0 
+7f3f26054000 0 1 0 0 0 
+7f3f26055000 0 1 0 0 0 
+7f3f26056000 0 1 0 0 0 
+7f3f26057000 0 1 0 0 0 
+7f3f26058000 0 1 0 0 0 
+7f3f26059000 0 1 0 0 0 
+7f3f2605a000 0 1 0 0 0 
+7f3f2605b000 0 1 0 0 0 
+7f3f2605c000 0 1 0 0 0 
+7f3f2605d000 0 1 0 0 0 
+7f3f2605e000 0 1 0 0 0 
+7f3f2605f000 0 1 0 0 0 
+7f3f26060000 0 1 0 0 0 
+7f3f26061000 0 1 0 0 0 
+7f3f26062000 0 1 0 0 0 
+7f3f26063000 0 1 0 0 0 
+7f3f26064000 0 1 0 0 0 
+7f3f26065000 0 1 0 0 0 
+7f3f26066000 0 1 0 0 0 
+7f3f26067000 0 1 0 0 0 
+7f3f26068000 0 1 0 0 0 
+7f3f26069000 0 1 0 0 0 
+7f3f2606a000 0 1 0 0 0 
+7f3f2606b000 0 1 0 0 0 
+7f3f2606c000 0 1 0 0 0 
+7f3f2606d000 0 1 0 0 0 
+7f3f2606e000 0 1 0 0 0 
+7f3f2606f000 0 1 0 0 0 
+7f3f26070000 0 1 0 0 0 
+7f3f26071000 0 1 0 0 0 
+7f3f26072000 0 1 0 0 0 
+7f3f26073000 0 1 0 0 0 
+7f3f26074000 0 1 0 0 0 
+7f3f26075000 0 1 0 0 0 
+7f3f26076000 0 1 0 0 0 
+7f3f26077000 0 1 0 0 0 
+7f3f26078000 0 1 0 0 0 
+7f3f26079000 0 1 0 0 0 
+7f3f2607a000 0 1 0 0 0 
+7f3f2607b000 0 1 0 0 0 
+7f3f2607c000 0 1 0 0 0 
+7f3f2607d000 0 1 0 0 0 
+7f3f2607e000 0 1 0 0 0 
+7f3f2607f000 0 1 0 0 0 
+7f3f26080000 0 1 0 0 0 
+7f3f26081000 0 1 0 0 0 
+7f3f26082000 0 1 0 0 0 
+7f3f26083000 0 1 0 0 0 
+7f3f26084000 0 1 0 0 0 
+7f3f26085000 0 1 0 0 0 
+7f3f26086000 0 1 0 0 0 
+7f3f26087000 0 1 0 0 0 
+7f3f26088000 0 1 0 0 0 
+7f3f26089000 0 1 0 0 0 
+7f3f2608a000 0 1 0 0 0 
+7f3f2608b000 0 1 0 0 0 
+7f3f2608c000 0 1 0 0 0 
+7f3f2608d000 0 1 0 0 0 
+7f3f2608e000 0 1 0 0 0 
+7f3f2608f000 0 1 0 0 0 
+7f3f26090000 0 1 0 0 0 
+7f3f26091000 0 1 0 0 0 
+7f3f26092000 0 1 0 0 0 
+7f3f26093000 0 1 0 0 0 
+7f3f26094000 0 1 0 0 0 
+7f3f26095000 0 1 0 0 0 
+7f3f26096000 0 1 0 0 0 
+7f3f26097000 0 1 0 0 0 
+7f3f26098000 0 1 0 0 0 
+7f3f26099000 0 1 0 0 0 
+7f3f2609a000 0 1 0 0 0 
+7f3f2609b000 0 1 0 0 0 
+7f3f2609c000 0 1 0 0 0 
+7f3f2609d000 0 1 0 0 0 
+7f3f2609e000 0 1 0 0 0 
+7f3f2609f000 0 1 0 0 0 
+7f3f260a0000 0 1 0 0 0 
+7f3f260a1000 0 1 0 0 0 
+7f3f260a2000 0 1 0 0 0 
+7f3f260a3000 0 1 0 0 0 
+7f3f260a4000 0 1 0 0 0 
+7f3f260a5000 0 1 0 0 0 
+7f3f260a6000 0 1 0 0 0 
+7f3f260a7000 0 1 0 0 0 
+7f3f260a8000 0 1 0 0 0 
+7f3f260a9000 0 1 0 0 0 
+7f3f260aa000 0 1 0 0 0 
+7f3f260ab000 0 1 0 0 0 
+7f3f260ac000 0 1 0 0 0 
+7f3f260ad000 0 1 0 0 0 
+7f3f260ae000 0 1 0 0 0 
+7f3f260af000 0 1 0 0 0 
+7f3f260b0000 0 1 0 0 0 
+7f3f260b1000 0 1 0 0 0 
+7f3f260b2000 0 1 0 0 0 
+7f3f260b3000 0 1 0 0 0 
+7f3f260b4000 0 1 0 0 0 
+7f3f260b5000 0 1 0 0 0 
+7f3f260b6000 0 1 0 0 0 
+7f3f260b7000 0 1 0 0 0 
+7f3f260b8000 0 1 0 0 0 
+7f3f260b9000 0 1 0 0 0 
+7f3f260ba000 0 1 0 0 0 
+7f3f260bb000 0 1 0 0 0 
+7f3f260bc000 0 1 0 0 0 
+7f3f260bd000 0 1 0 0 0 
+7f3f260be000 0 1 0 0 0 
+7f3f260bf000 0 1 0 0 0 
+7f3f260c0000 0 1 0 0 0 
+7f3f260c1000 0 1 0 0 0 
+7f3f260c2000 0 1 0 0 0 
+7f3f260c3000 0 1 0 0 0 
+7f3f260c4000 0 1 0 0 0 
+7f3f260c5000 0 1 0 0 0 
+7f3f260c6000 0 1 0 0 0 
+7f3f260c7000 0 1 0 0 0 
+7f3f260c8000 0 1 0 0 0 
+7f3f260c9000 0 1 0 0 0 
+7f3f260ca000 0 1 0 0 0 
+7f3f260cb000 0 1 0 0 0 
+7f3f260cc000 0 1 0 0 0 
+7f3f260cd000 0 1 0 0 0 
+7f3f260ce000 0 1 0 0 0 
+7f3f260cf000 0 1 0 0 0 
+7f3f260d0000 0 1 0 0 0 
+7f3f260d1000 0 1 0 0 0 
+7f3f260d2000 0 1 0 0 0 
+7f3f260d3000 0 1 0 0 0 
+7f3f260d4000 0 1 0 0 0 
+7f3f260d5000 0 1 0 0 0 
+7f3f260d6000 0 1 0 0 0 
+7f3f260d7000 0 1 0 0 0 
+7f3f260d8000 0 1 0 0 0 
+7f3f260d9000 0 1 0 0 0 
+7f3f260da000 0 1 0 0 0 
+7f3f260db000 0 1 0 0 0 
+7f3f260dc000 0 1 0 0 0 
+7f3f260dd000 0 1 0 0 0 
+7f3f260de000 0 1 0 0 0 
+7f3f260df000 0 1 0 0 0 
+7f3f260e0000 0 1 0 0 0 
+7f3f260e1000 0 1 0 0 0 
+7f3f260e2000 0 1 0 0 0 
+7f3f260e3000 0 1 0 0 0 
+7f3f260e4000 0 1 0 0 0 
+7f3f260e5000 0 1 0 0 0 
+7f3f260e6000 0 1 0 0 0 
+7f3f260e7000 0 1 0 0 0 
+7f3f260e8000 0 1 0 0 0 
+7f3f260e9000 0 1 0 0 0 
+7f3f260ea000 0 1 0 0 0 
+7f3f260eb000 0 1 0 0 0 
+7f3f260ec000 0 1 0 0 0 
+7f3f260ed000 0 1 0 0 0 
+7f3f260ee000 0 1 0 0 0 
+7f3f260ef000 0 1 0 0 0 
+7f3f260f0000 0 1 0 0 0 
+7f3f260f1000 0 1 0 0 0 
+7f3f260f2000 0 1 0 0 0 
+7f3f260f3000 0 1 0 0 0 
+7f3f260f4000 0 1 0 0 0 
+7f3f260f5000 0 1 0 0 0 
+7f3f260f6000 0 1 0 0 0 
+7f3f260f7000 0 1 0 0 0 
+7f3f260f8000 0 1 0 0 0 
+7f3f260f9000 0 1 0 0 0 
+7f3f260fa000 0 1 0 0 0 
+7f3f260fb000 0 1 0 0 0 
+7f3f260fc000 0 1 0 0 0 
+7f3f260fd000 0 1 0 0 0 
+7f3f260fe000 0 1 0 0 0 
+7f3f260ff000 0 1 0 0 0 
+7f3f26100000 0 1 0 0 0 
+7f3f26101000 0 1 0 0 0 
+7f3f26102000 0 1 0 0 0 
+7f3f26103000 0 1 0 0 0 
+7f3f26104000 0 1 0 0 0 
+7f3f26105000 0 1 0 0 0 
+7f3f26106000 0 1 0 0 0 
+7f3f26107000 0 1 0 0 0 
+7f3f26108000 0 1 0 0 0 
+7f3f26109000 0 1 0 0 0 
+7f3f2610a000 0 1 0 0 0 
+7f3f2610b000 0 1 0 0 0 
+7f3f2610c000 0 1 0 0 0 
+7f3f2610d000 0 1 0 0 0 
+7f3f2610e000 0 1 0 0 0 
+7f3f2610f000 0 1 0 0 0 
+7f3f26110000 0 1 0 0 0 
+7f3f26111000 0 1 0 0 0 
+7f3f26112000 0 1 0 0 0 
+7f3f26113000 0 1 0 0 0 
+7f3f26114000 0 1 0 0 0 
+7f3f26115000 0 1 0 0 0 
+7f3f26116000 0 1 0 0 0 
+7f3f26117000 0 1 0 0 0 
+7f3f26118000 0 1 0 0 0 
+7f3f26119000 0 1 0 0 0 
+7f3f2611a000 0 1 0 0 0 
+7f3f2611b000 0 1 0 0 0 
+7f3f2611c000 0 1 0 0 0 
+7f3f2611d000 0 1 0 0 0 
+7f3f2611e000 0 1 0 0 0 
+7f3f2611f000 0 1 0 0 0 
+7f3f26120000 0 1 0 0 0 
+7f3f26121000 0 1 0 0 0 
+7f3f26122000 0 1 0 0 0 
+7f3f26123000 0 1 0 0 0 
+7f3f26124000 0 1 0 0 0 
+7f3f26125000 0 1 0 0 0 
+7f3f26126000 0 1 0 0 0 
+7f3f26127000 0 1 0 0 0 
+7f3f26128000 0 1 0 0 0 
+7f3f26129000 0 1 0 0 0 
+7f3f2612a000 0 1 0 0 0 
+7f3f2612b000 0 1 0 0 0 
+7f3f2612c000 0 1 0 0 0 
+7f3f2612d000 0 1 0 0 0 
+7f3f2612e000 0 1 0 0 0 
+7f3f2612f000 0 1 0 0 0 
+7f3f26130000 0 1 0 0 0 
+7f3f26131000 0 1 0 0 0 
+7f3f26132000 0 1 0 0 0 
+7f3f26133000 0 1 0 0 0 
+7f3f26134000 0 1 0 0 0 
+7f3f26135000 0 1 0 0 0 
+7f3f26136000 0 1 0 0 0 
+7f3f26137000 0 1 0 0 0 
+7f3f26138000 0 1 0 0 0 
+7f3f26139000 0 1 0 0 0 
+7f3f2613a000 0 1 0 0 0 
+7f3f2613b000 0 1 0 0 0 
+7f3f2613c000 0 1 0 0 0 
+7f3f2613d000 0 1 0 0 0 
+7f3f2613e000 0 1 0 0 0 
+7f3f2613f000 0 1 0 0 0 
+7f3f26140000 0 1 0 0 0 
+7f3f26141000 0 1 0 0 0 
+7f3f26142000 0 1 0 0 0 
+7f3f26143000 0 1 0 0 0 
+7f3f26144000 0 1 0 0 0 
+7f3f26145000 0 1 0 0 0 
+7f3f26146000 0 1 0 0 0 
+7f3f26147000 0 1 0 0 0 
+7f3f26148000 0 1 0 0 0 
+7f3f26149000 0 1 0 0 0 
+7f3f2614a000 0 1 0 0 0 
+7f3f2614b000 0 1 0 0 0 
+7f3f2614c000 0 1 0 0 0 
+7f3f2614d000 0 1 0 0 0 
+7f3f2614e000 0 1 0 0 0 
+7f3f2614f000 0 1 0 0 0 
+7f3f26150000 0 1 0 0 0 
+7f3f26151000 0 1 0 0 0 
+7f3f26152000 0 1 0 0 0 
+7f3f26153000 0 1 0 0 0 
+7f3f26154000 0 1 0 0 0 
+7f3f26155000 0 1 0 0 0 
+7f3f26156000 0 1 0 0 0 
+7f3f26157000 0 1 0 0 0 
+7f3f26158000 0 1 0 0 0 
+7f3f26159000 0 1 0 0 0 
+7f3f2615a000 0 1 0 0 0 
+7f3f2615b000 0 1 0 0 0 
+7f3f2615c000 0 1 0 0 0 
+7f3f2615d000 0 1 0 0 0 
+7f3f2615e000 0 1 0 0 0 
+7f3f2615f000 0 1 0 0 0 
+7f3f26160000 0 1 0 0 0 
+7f3f26161000 0 1 0 0 0 
+7f3f26162000 0 1 0 0 0 
+7f3f26163000 0 1 0 0 0 
+7f3f26164000 0 1 0 0 0 
+7f3f26165000 0 1 0 0 0 
+7f3f26166000 0 1 0 0 0 
+7f3f26167000 0 1 0 0 0 
+7f3f26168000 0 1 0 0 0 
+7f3f26169000 0 1 0 0 0 
+7f3f2616a000 0 1 0 0 0 
+7f3f2616b000 0 1 0 0 0 
+7f3f2616c000 0 1 0 0 0 
+7f3f2616d000 0 1 0 0 0 
+7f3f2616e000 0 1 0 0 0 
+7f3f2616f000 0 1 0 0 0 
+7f3f26170000 0 1 0 0 0 
+7f3f26171000 0 1 0 0 0 
+7f3f26172000 0 1 0 0 0 
+7f3f26173000 0 1 0 0 0 
+7f3f26174000 0 1 0 0 0 
+7f3f26175000 0 1 0 0 0 
+7f3f26176000 0 1 0 0 0 
+7f3f26177000 0 1 0 0 0 
+7f3f26178000 0 1 0 0 0 
+7f3f26179000 0 1 0 0 0 
+7f3f2617a000 0 1 0 0 0 
+7f3f2617b000 0 1 0 0 0 
+7f3f2617c000 0 1 0 0 0 
+7f3f2617d000 0 1 0 0 0 
+7f3f2617e000 0 1 0 0 0 
+7f3f2617f000 0 1 0 0 0 
+7f3f26180000 0 1 0 0 0 
+7f3f26181000 0 1 0 0 0 
+7f3f26182000 0 1 0 0 0 
+7f3f26183000 0 1 0 0 0 
+7f3f26184000 0 1 0 0 0 
+7f3f26185000 0 1 0 0 0 
+7f3f26186000 0 1 0 0 0 
+7f3f26187000 0 1 0 0 0 
+7f3f26188000 0 1 0 0 0 
+7f3f26189000 0 1 0 0 0 
+7f3f2618a000 0 1 0 0 0 
+7f3f2618b000 0 1 0 0 0 
+7f3f2618c000 0 1 0 0 0 
+7f3f2618d000 0 1 0 0 0 
+7f3f2618e000 0 1 0 0 0 
+7f3f2618f000 0 1 0 0 0 
+7f3f26190000 0 1 0 0 0 
+7f3f26191000 0 1 0 0 0 
+7f3f26192000 0 1 0 0 0 
+7f3f26193000 0 1 0 0 0 
+7f3f26194000 0 1 0 0 0 
+7f3f26195000 0 1 0 0 0 
+7f3f26196000 0 1 0 0 0 
+7f3f26197000 0 1 0 0 0 
+7f3f26198000 0 1 0 0 0 
+7f3f26199000 0 1 0 0 0 
+7f3f2619a000 0 1 0 0 0 
+7f3f2619b000 0 1 0 0 0 
+7f3f2619c000 0 1 0 0 0 
+7f3f2619d000 0 1 0 0 0 
+7f3f2619e000 0 1 0 0 0 
+7f3f2619f000 0 1 0 0 0 
+7f3f261a0000 0 1 0 0 0 
+7f3f261a1000 0 1 0 0 0 
+7f3f261a2000 0 1 0 0 0 
+7f3f261a3000 0 1 0 0 0 
+7f3f261a4000 0 1 0 0 0 
+7f3f261a5000 0 1 0 0 0 
+7f3f261a6000 0 1 0 0 0 
+7f3f261a7000 0 1 0 0 0 
+7f3f261a8000 0 1 0 0 0 
+7f3f261a9000 0 1 0 0 0 
+7f3f261aa000 0 1 0 0 0 
+7f3f261ab000 0 1 0 0 0 
+7f3f261ac000 0 1 0 0 0 
+7f3f261ad000 0 1 0 0 0 
+7f3f261ae000 0 1 0 0 0 
+7f3f261af000 0 1 0 0 0 
+7f3f261b0000 0 1 0 0 0 
+7f3f261b1000 0 1 0 0 0 
+7f3f261b2000 0 1 0 0 0 
+7f3f261b3000 0 1 0 0 0 
+7f3f261b4000 0 1 0 0 0 
+7f3f261b5000 0 1 0 0 0 
+7f3f261b6000 0 1 0 0 0 
+7f3f261b7000 0 1 0 0 0 
+7f3f261b8000 0 1 0 0 0 
+7f3f261b9000 0 1 0 0 0 
+7f3f261ba000 0 1 0 0 0 
+7f3f261bb000 0 1 0 0 0 
+7f3f261bc000 0 1 0 0 0 
+7f3f261bd000 0 1 0 0 0 
+7f3f261be000 0 1 0 0 0 
+7f3f261bf000 0 1 0 0 0 
+7f3f261c0000 0 1 0 0 0 
+7f3f261c1000 0 1 0 0 0 
+7f3f261c2000 0 1 0 0 0 
+7f3f261c3000 0 1 0 0 0 
+7f3f261c4000 0 1 0 0 0 
+7f3f261c5000 0 1 0 0 0 
+7f3f261c6000 0 1 0 0 0 
+7f3f261c7000 0 1 0 0 0 
+7f3f261c8000 0 1 0 0 0 
+7f3f261c9000 0 1 0 0 0 
+7f3f261ca000 0 1 0 0 0 
+7f3f261cb000 0 1 0 0 0 
+7f3f261cc000 0 1 0 0 0 
+7f3f261cd000 0 1 0 0 0 
+7f3f261ce000 0 1 0 0 0 
+7f3f261cf000 0 1 0 0 0 
+7f3f261d0000 0 1 0 0 0 
+7f3f261d1000 0 1 0 0 0 
+7f3f261d2000 0 1 0 0 0 
+7f3f261d3000 0 1 0 0 0 
+7f3f261d4000 0 1 0 0 0 
+7f3f261d5000 0 1 0 0 0 
+7f3f261d6000 0 1 0 0 0 
+7f3f261d7000 0 1 0 0 0 
+7f3f261d8000 0 1 0 0 0 
+7f3f261d9000 0 1 0 0 0 
+7f3f261da000 0 1 0 0 0 
+7f3f261db000 0 1 0 0 0 
+7f3f261dc000 0 1 0 0 0 
+7f3f261dd000 0 1 0 0 0 
+7f3f261de000 0 1 0 0 0 
+7f3f261df000 0 1 0 0 0 
+7f3f261e0000 0 1 0 0 0 
+7f3f261e1000 0 1 0 0 0 
+7f3f261e2000 0 1 0 0 0 
+7f3f261e3000 0 1 0 0 0 
+7f3f261e4000 0 1 0 0 0 
+7f3f261e5000 0 1 0 0 0 
+7f3f261e6000 0 1 0 0 0 
+7f3f261e7000 0 1 0 0 0 
+7f3f261e8000 0 1 0 0 0 
+7f3f261e9000 0 1 0 0 0 
+7f3f261ea000 0 1 0 0 0 
+7f3f261eb000 0 1 0 0 0 
+7f3f261ec000 0 1 0 0 0 
+7f3f261ed000 0 1 0 0 0 
+7f3f261ee000 0 1 0 0 0 
+7f3f261ef000 0 1 0 0 0 
+7f3f261f0000 0 1 0 0 0 
+7f3f261f1000 0 1 0 0 0 
+7f3f261f2000 0 1 0 0 0 
+7f3f261f3000 0 1 0 0 0 
+7f3f261f4000 0 1 0 0 0 
+7f3f261f5000 0 1 0 0 0 
+7f3f261f6000 0 1 0 0 0 
+7f3f261f7000 0 1 0 0 0 
+7f3f261f8000 0 1 0 0 0 
+7f3f261f9000 0 1 0 0 0 
+7f3f261fa000 0 1 0 0 0 
+7f3f261fb000 0 1 0 0 0 
+7f3f261fc000 0 1 0 0 0 
+7f3f261fd000 0 1 0 0 0 
+7f3f261fe000 0 1 0 0 0 
+7f3f261ff000 0 1 0 0 0 
+7f3f26200000 0 1 0 0 0 
+7f3f26201000 0 1 0 0 0 
+7f3f26202000 0 1 0 0 0 
+7f3f26203000 0 1 0 0 0 
+7f3f26204000 0 1 0 0 0 
+7f3f26205000 0 1 0 0 0 
+7f3f26206000 0 1 0 0 0 
+7f3f26207000 0 1 0 0 0 
+7f3f26208000 0 1 0 0 0 
+7f3f26209000 0 1 0 0 0 
+7f3f2620a000 0 1 0 0 0 
+7f3f2620b000 0 1 0 0 0 
+7f3f2620c000 0 1 0 0 0 
+7f3f2620d000 0 1 0 0 0 
+7f3f2620e000 0 1 0 0 0 
+7f3f2620f000 0 1 0 0 0 
+7f3f26210000 0 1 0 0 0 
+7f3f26211000 0 1 0 0 0 
+7f3f26212000 0 1 0 0 0 
+7f3f26213000 0 1 0 0 0 
+7f3f26214000 0 1 0 0 0 
+7f3f26215000 0 1 0 0 0 
+7f3f26216000 0 1 0 0 0 
+7f3f26217000 0 1 0 0 0 
+7f3f26218000 0 1 0 0 0 
+7f3f26219000 0 1 0 0 0 
+7f3f2621a000 0 1 0 0 0 
+7f3f2621b000 0 1 0 0 0 
+7f3f2621c000 0 1 0 0 0 
+7f3f2621d000 0 1 0 0 0 
+7f3f2621e000 0 1 0 0 0 
+7f3f2621f000 0 1 0 0 0 
+7f3f26220000 0 1 0 0 0 
+7f3f26221000 0 1 0 0 0 
+7f3f26222000 0 1 0 0 0 
+7f3f26223000 0 1 0 0 0 
+7f3f26224000 0 1 0 0 0 
+7f3f26225000 0 1 0 0 0 
+7f3f26226000 0 1 0 0 0 
+7f3f26227000 0 1 0 0 0 
+7f3f26228000 0 1 0 0 0 
+7f3f26229000 0 1 0 0 0 
+7f3f2622a000 0 1 0 0 0 
+7f3f2622b000 0 1 0 0 0 
+7f3f2622c000 0 1 0 0 0 
+7f3f2622d000 0 1 0 0 0 
+7f3f2622e000 0 1 0 0 0 
+7f3f2622f000 0 1 0 0 0 
+7f3f26230000 0 1 0 0 0 
+7f3f26231000 0 1 0 0 0 
+7f3f26232000 0 1 0 0 0 
+7f3f26233000 0 1 0 0 0 
+7f3f26234000 0 1 0 0 0 
+7f3f26235000 0 1 0 0 0 
+7f3f26236000 0 1 0 0 0 
+7f3f26237000 0 1 0 0 0 
+7f3f26238000 0 1 0 0 0 
+7f3f26239000 0 1 0 0 0 
+7f3f2623a000 0 1 0 0 0 
+7f3f2623b000 0 1 0 0 0 
+7f3f2623c000 0 1 0 0 0 
+7f3f2623d000 0 1 0 0 0 
+7f3f2623e000 0 1 0 0 0 
+7f3f2623f000 0 1 0 0 0 
+7f3f26240000 0 1 0 0 0 
+7f3f26241000 0 1 0 0 0 
+7f3f26242000 0 1 0 0 0 
+7f3f26243000 0 1 0 0 0 
+7f3f26244000 0 1 0 0 0 
+7f3f26245000 0 1 0 0 0 
+7f3f26246000 0 1 0 0 0 
+7f3f26247000 0 1 0 0 0 
+7f3f26248000 0 1 0 0 0 
+7f3f26249000 0 1 0 0 0 
+7f3f2624a000 0 1 0 0 0 
+7f3f2624b000 0 1 0 0 0 
+7f3f2624c000 0 1 0 0 0 
+7f3f2624d000 0 1 0 0 0 
+7f3f2624e000 0 1 0 0 0 
+7f3f2624f000 0 1 0 0 0 
+7f3f26250000 0 1 0 0 0 
+7f3f26251000 0 1 0 0 0 
+7f3f26252000 0 1 0 0 0 
+7f3f26253000 0 1 0 0 0 
+7f3f26254000 0 1 0 0 0 
+7f3f26255000 0 1 0 0 0 
+7f3f26256000 0 1 0 0 0 
+7f3f26257000 0 1 0 0 0 
+7f3f26258000 0 1 0 0 0 
+7f3f26259000 0 1 0 0 0 
+7f3f2625a000 0 1 0 0 0 
+7f3f2625b000 0 1 0 0 0 
+7f3f2625c000 0 1 0 0 0 
+7f3f2625d000 0 1 0 0 0 
+7f3f2625e000 0 1 0 0 0 
+7f3f2625f000 0 1 0 0 0 
+7f3f26260000 0 1 0 0 0 
+7f3f26261000 0 1 0 0 0 
+7f3f26262000 0 1 0 0 0 
+7f3f26263000 0 1 0 0 0 
+7f3f26264000 0 1 0 0 0 
+7f3f26265000 0 1 0 0 0 
+7f3f26266000 0 1 0 0 0 
+7f3f26267000 0 1 0 0 0 
+7f3f26268000 0 1 0 0 0 
+7f3f26269000 0 1 0 0 0 
+7f3f2626a000 0 1 0 0 0 
+7f3f2626b000 0 1 0 0 0 
+7f3f2626c000 0 1 0 0 0 
+7f3f2626d000 0 1 0 0 0 
+7f3f2626e000 0 1 0 0 0 
+7f3f2626f000 0 1 0 0 0 
+7f3f26270000 0 1 0 0 0 
+7f3f26271000 0 1 0 0 0 
+7f3f26272000 0 1 0 0 0 
+7f3f26273000 0 1 0 0 0 
+7f3f26274000 0 1 0 0 0 
+7f3f26275000 0 1 0 0 0 
+7f3f26276000 0 1 0 0 0 
+7f3f26277000 0 1 0 0 0 
+7f3f26278000 0 1 0 0 0 
+7f3f26279000 0 1 0 0 0 
+7f3f2627a000 0 1 0 0 0 
+7f3f2627b000 0 1 0 0 0 
+7f3f2627c000 0 1 0 0 0 
+7f3f2627d000 0 1 0 0 0 
+7f3f2627e000 0 1 0 0 0 
+7f3f2627f000 0 1 0 0 0 
+7f3f26280000 0 1 0 0 0 
+7f3f26281000 0 1 0 0 0 
+7f3f26282000 0 1 0 0 0 
+7f3f26283000 0 1 0 0 0 
+7f3f26284000 0 1 0 0 0 
+7f3f26285000 0 1 0 0 0 
+7f3f26286000 0 1 0 0 0 
+7f3f26287000 0 1 0 0 0 
+7f3f26288000 0 1 0 0 0 
+7f3f26289000 0 1 0 0 0 
+7f3f2628a000 0 1 0 0 0 
+7f3f2628b000 0 1 0 0 0 
+7f3f2628c000 0 1 0 0 0 
+7f3f2628d000 0 1 0 0 0 
+7f3f2628e000 0 1 0 0 0 
+7f3f2628f000 0 1 0 0 0 
+7f3f26290000 0 1 0 0 0 
+7f3f26291000 0 1 0 0 0 
+7f3f26292000 0 1 0 0 0 
+7f3f26293000 0 1 0 0 0 
+7f3f26294000 0 1 0 0 0 
+7f3f26295000 0 1 0 0 0 
+7f3f26296000 0 1 0 0 0 
+7f3f26297000 0 1 0 0 0 
+7f3f26298000 0 1 0 0 0 
+7f3f26299000 0 1 0 0 0 
+7f3f2629a000 0 1 0 0 0 
+7f3f2629b000 0 1 0 0 0 
+7f3f2629c000 0 1 0 0 0 
+7f3f2629d000 0 1 0 0 0 
+7f3f2629e000 0 1 0 0 0 
+7f3f2629f000 0 1 0 0 0 
+7f3f262a0000 0 1 0 0 0 
+7f3f262a1000 0 1 0 0 0 
+7f3f262a2000 0 1 0 0 0 
+7f3f262a3000 0 1 0 0 0 
+7f3f262a4000 0 1 0 0 0 
+7f3f262a5000 0 1 0 0 0 
+7f3f262a6000 0 1 0 0 0 
+7f3f262a7000 0 1 0 0 0 
+7f3f262a8000 0 1 0 0 0 
+7f3f262a9000 0 1 0 0 0 
+7f3f262aa000 0 1 0 0 0 
+7f3f262ab000 0 1 0 0 0 
+7f3f262ac000 0 1 0 0 0 
+7f3f262ad000 0 1 0 0 0 
+7f3f262ae000 0 1 0 0 0 
+7f3f262af000 0 1 0 0 0 
+7f3f262b0000 0 1 0 0 0 
+7f3f262b1000 0 1 0 0 0 
+7f3f262b2000 0 1 0 0 0 
+7f3f262b3000 0 1 0 0 0 
+7f3f262b4000 0 1 0 0 0 
+7f3f262b5000 0 1 0 0 0 
+7f3f262b6000 0 1 0 0 0 
+7f3f262b7000 0 1 0 0 0 
+7f3f262b8000 0 1 0 0 0 
+7f3f262b9000 0 1 0 0 0 
+7f3f262ba000 0 1 0 0 0 
+7f3f262bb000 0 1 0 0 0 
+7f3f262bc000 0 1 0 0 0 
+7f3f262bd000 0 1 0 0 0 
+7f3f262be000 0 1 0 0 0 
+7f3f262bf000 0 1 0 0 0 
+7f3f262c0000 0 1 0 0 0 
+7f3f262c1000 0 1 0 0 0 
+7f3f262c2000 0 1 0 0 0 
+7f3f262c3000 0 1 0 0 0 
+7f3f262c4000 0 1 0 0 0 
+7f3f262c5000 0 1 0 0 0 
+7f3f262c6000 0 1 0 0 0 
+7f3f262c7000 0 1 0 0 0 
+7f3f262c8000 0 1 0 0 0 
+7f3f262c9000 0 1 0 0 0 
+7f3f262ca000 0 1 0 0 0 
+7f3f262cb000 0 1 0 0 0 
+7f3f262cc000 0 1 0 0 0 
+7f3f262cd000 0 1 0 0 0 
+7f3f262ce000 0 1 0 0 0 
+7f3f262cf000 0 1 0 0 0 
+7f3f262d0000 0 1 0 0 0 
+7f3f262d1000 0 1 0 0 0 
+7f3f262d2000 0 1 0 0 0 
+7f3f262d3000 0 1 0 0 0 
+7f3f262d4000 0 1 0 0 0 
+7f3f262d5000 0 1 0 0 0 
+7f3f262d6000 0 1 0 0 0 
+7f3f262d7000 0 1 0 0 0 
+7f3f262d8000 0 1 0 0 0 
+7f3f262d9000 0 1 0 0 0 
+7f3f262da000 0 1 0 0 0 
+7f3f262db000 0 1 0 0 0 
+7f3f262dc000 0 1 0 0 0 
+7f3f262dd000 0 1 0 0 0 
+7f3f262de000 0 1 0 0 0 
+7f3f262df000 0 1 0 0 0 
+7f3f262e0000 0 1 0 0 0 
+7f3f262e1000 0 1 0 0 0 
+7f3f262e2000 0 1 0 0 0 
+7f3f262e3000 0 1 0 0 0 
+7f3f262e4000 0 1 0 0 0 
+7f3f262e5000 0 1 0 0 0 
+7f3f262e6000 0 1 0 0 0 
+7f3f262e7000 0 1 0 0 0 
+7f3f262e8000 0 1 0 0 0 
+7f3f262e9000 0 1 0 0 0 
+7f3f262ea000 0 1 0 0 0 
+7f3f262eb000 0 1 0 0 0 
+7f3f262ec000 0 1 0 0 0 
+7f3f262ed000 0 1 0 0 0 
+7f3f262ee000 0 1 0 0 0 
+7f3f262ef000 0 1 0 0 0 
+7f3f262f0000 0 1 0 0 0 
+7f3f262f1000 0 1 0 0 0 
+7f3f262f2000 0 1 0 0 0 
+7f3f262f3000 0 1 0 0 0 
+7f3f262f4000 0 1 0 0 0 
+7f3f262f5000 0 1 0 0 0 
+7f3f262f6000 0 1 0 0 0 
+7f3f262f7000 0 1 0 0 0 
+7f3f262f8000 0 1 0 0 0 
+7f3f262f9000 0 1 0 0 0 
+7f3f262fa000 0 1 0 0 0 
+7f3f262fb000 0 1 0 0 0 
+7f3f262fc000 0 1 0 0 0 
+7f3f262fd000 0 1 0 0 0 
+7f3f262fe000 0 1 0 0 0 
+7f3f262ff000 0 1 0 0 0 
+7f3f26300000 0 1 0 0 0 
+7f3f26301000 0 1 0 0 0 
+7f3f26302000 0 1 0 0 0 
+7f3f26303000 0 1 0 0 0 
+7f3f26304000 0 1 0 0 0 
+7f3f26305000 0 1 0 0 0 
+7f3f26306000 0 1 0 0 0 
+7f3f26307000 0 1 0 0 0 
+7f3f26308000 0 1 0 0 0 
+7f3f26309000 0 1 0 0 0 
+7f3f2630a000 0 1 0 0 0 
+7f3f2630b000 0 1 0 0 0 
+7f3f2630c000 0 1 0 0 0 
+7f3f2630d000 0 1 0 0 0 
+7f3f2630e000 0 1 0 0 0 
+7f3f2630f000 0 1 0 0 0 
+7f3f26310000 0 1 0 0 0 
+7f3f26311000 0 1 0 0 0 
+7f3f26312000 0 1 0 0 0 
+7f3f26313000 0 1 0 0 0 
+7f3f26314000 0 1 0 0 0 
+7f3f26315000 0 1 0 0 0 
+7f3f26316000 0 1 0 0 0 
+7f3f26317000 0 1 0 0 0 
+7f3f26318000 0 1 0 0 0 
+7f3f26319000 0 1 0 0 0 
+7f3f2631a000 0 1 0 0 0 
+7f3f2631b000 0 1 0 0 0 
+7f3f2631c000 0 1 0 0 0 
+7f3f2631d000 0 1 0 0 0 
+7f3f2631e000 0 1 0 0 0 
+7f3f2631f000 0 1 0 0 0 
+7f3f26320000 0 1 0 0 0 
+7f3f26321000 0 1 0 0 0 
+7f3f26322000 0 1 0 0 0 
+7f3f26323000 0 1 0 0 0 
+7f3f26324000 0 1 0 0 0 
+7f3f26325000 0 1 0 0 0 
+7f3f26326000 0 1 0 0 0 
+7f3f26327000 0 1 0 0 0 
+7f3f26328000 0 1 0 0 0 
+7f3f26329000 0 1 0 0 0 
+7f3f2632a000 0 1 0 0 0 
+7f3f2632b000 0 1 0 0 0 
+7f3f2632c000 0 1 0 0 0 
+7f3f2632d000 0 1 0 0 0 
+7f3f2632e000 0 1 0 0 0 
+7f3f2632f000 0 1 0 0 0 
+7f3f26330000 0 1 0 0 0 
+7f3f26331000 0 1 0 0 0 
+7f3f26332000 0 1 0 0 0 
+7f3f26333000 0 1 0 0 0 
+7f3f26334000 0 1 0 0 0 
+7f3f26335000 0 1 0 0 0 
+7f3f26336000 0 1 0 0 0 
+7f3f26337000 0 1 0 0 0 
+7f3f26338000 0 1 0 0 0 
+7f3f26339000 0 1 0 0 0 
+7f3f2633a000 0 1 0 0 0 
+7f3f2633b000 0 1 0 0 0 
+7f3f2633c000 0 1 0 0 0 
+7f3f2633d000 0 1 0 0 0 
+7f3f2633e000 0 1 0 0 0 
+7f3f2633f000 0 1 0 0 0 
+7f3f26340000 0 1 0 0 0 
+7f3f26341000 0 1 0 0 0 
+7f3f26342000 0 1 0 0 0 
+7f3f26343000 0 1 0 0 0 
+7f3f26344000 0 1 0 0 0 
+7f3f26345000 0 1 0 0 0 
+7f3f26346000 0 1 0 0 0 
+7f3f26347000 0 1 0 0 0 
+7f3f26348000 0 1 0 0 0 
+7f3f26349000 0 1 0 0 0 
+7f3f2634a000 0 1 0 0 0 
+7f3f2634b000 0 1 0 0 0 
+7f3f2634c000 0 1 0 0 0 
+7f3f2634d000 0 1 0 0 0 
+7f3f2634e000 0 1 0 0 0 
+7f3f2634f000 0 1 0 0 0 
+7f3f26350000 0 1 0 0 0 
+7f3f26351000 0 1 0 0 0 
+7f3f26352000 0 1 0 0 0 
+7f3f26353000 0 1 0 0 0 
+7f3f26354000 0 1 0 0 0 
+7f3f26355000 0 1 0 0 0 
+7f3f26356000 0 1 0 0 0 
+7f3f26357000 0 1 0 0 0 
+7f3f26358000 0 1 0 0 0 
+7f3f26359000 0 1 0 0 0 
+7f3f2635a000 0 1 0 0 0 
+7f3f2635b000 0 1 0 0 0 
+7f3f2635c000 0 1 0 0 0 
+7f3f2635d000 0 1 0 0 0 
+7f3f2635e000 0 1 0 0 0 
+7f3f2635f000 0 1 0 0 0 
+7f3f26360000 0 1 0 0 0 
+7f3f26361000 0 1 0 0 0 
+7f3f26362000 0 1 0 0 0 
+7f3f26363000 0 1 0 0 0 
+7f3f26364000 0 1 0 0 0 
+7f3f26365000 0 1 0 0 0 
+7f3f26366000 0 1 0 0 0 
+7f3f26367000 0 1 0 0 0 
+7f3f26368000 0 1 0 0 0 
+7f3f26369000 0 1 0 0 0 
+7f3f2636a000 0 1 0 0 0 
+7f3f2636b000 0 1 0 0 0 
+7f3f2636c000 0 1 0 0 0 
+7f3f2636d000 0 1 0 0 0 
+7f3f2636e000 0 1 0 0 0 
+7f3f2636f000 0 1 0 0 0 
+7f3f26370000 0 1 0 0 0 
+7f3f26371000 0 1 0 0 0 
+7f3f26372000 0 1 0 0 0 
+7f3f26373000 0 1 0 0 0 
+7f3f26374000 0 1 0 0 0 
+7f3f26375000 0 1 0 0 0 
+7f3f26376000 0 1 0 0 0 
+7f3f26377000 0 1 0 0 0 
+7f3f26378000 0 1 0 0 0 
+7f3f26379000 0 1 0 0 0 
+7f3f2637a000 0 1 0 0 0 
+7f3f2637b000 0 1 0 0 0 
+7f3f2637c000 0 1 0 0 0 
+7f3f2637d000 0 1 0 0 0 
+7f3f2637e000 0 1 0 0 0 
+7f3f2637f000 0 1 0 0 0 
+7f3f26380000 0 1 0 0 0 
+7f3f26381000 0 1 0 0 0 
+7f3f26382000 0 1 0 0 0 
+7f3f26383000 0 1 0 0 0 
+7f3f26384000 0 1 0 0 0 
+7f3f26385000 0 1 0 0 0 
+7f3f26386000 0 1 0 0 0 
+7f3f26387000 0 1 0 0 0 
+7f3f26388000 0 1 0 0 0 
+7f3f26389000 0 1 0 0 0 
+7f3f2638a000 0 1 0 0 0 
+7f3f2638b000 0 1 0 0 0 
+7f3f2638c000 0 1 0 0 0 
+7f3f2638d000 0 1 0 0 0 
+7f3f2638e000 0 1 0 0 0 
+7f3f2638f000 0 1 0 0 0 
+7f3f26390000 0 1 0 0 0 
+7f3f26391000 0 1 0 0 0 
+7f3f26392000 0 1 0 0 0 
+7f3f26393000 0 1 0 0 0 
+7f3f26394000 0 1 0 0 0 
+7f3f26395000 0 1 0 0 0 
+7f3f26396000 0 1 0 0 0 
+7f3f26397000 0 1 0 0 0 
+7f3f26398000 0 1 0 0 0 
+7f3f26399000 0 1 0 0 0 
+7f3f2639a000 0 1 0 0 0 
+7f3f2639b000 0 1 0 0 0 
+7f3f2639c000 0 1 0 0 0 
+7f3f2639d000 0 1 0 0 0 
+7f3f2639e000 0 1 0 0 0 
+7f3f2639f000 0 1 0 0 0 
+7f3f263a0000 0 1 0 0 0 
+7f3f263a1000 0 1 0 0 0 
+7f3f263a2000 0 1 0 0 0 
+7f3f263a3000 0 1 0 0 0 
+7f3f263a4000 0 1 0 0 0 
+7f3f263a5000 0 1 0 0 0 
+7f3f263a6000 0 1 0 0 0 
+7f3f263a7000 0 1 0 0 0 
+7f3f263a8000 0 1 0 0 0 
+7f3f263a9000 0 1 0 0 0 
+7f3f263aa000 0 1 0 0 0 
+7f3f263ab000 0 1 0 0 0 
+7f3f263ac000 0 1 0 0 0 
+7f3f263ad000 0 1 0 0 0 
+7f3f263ae000 0 1 0 0 0 
+7f3f263af000 0 1 0 0 0 
+7f3f263b0000 0 1 0 0 0 
+7f3f263b1000 0 1 0 0 0 
+7f3f263b2000 0 1 0 0 0 
+7f3f263b3000 0 1 0 0 0 
+7f3f263b4000 0 1 0 0 0 
+7f3f263b5000 0 1 0 0 0 
+7f3f263b6000 0 1 0 0 0 
+7f3f263b7000 0 1 0 0 0 
+7f3f263b8000 0 1 0 0 0 
+7f3f263b9000 0 1 0 0 0 
+7f3f263ba000 0 1 0 0 0 
+7f3f263bb000 0 1 0 0 0 
+7f3f263bc000 0 1 0 0 0 
+7f3f263bd000 0 1 0 0 0 
+7f3f263be000 0 1 0 0 0 
+7f3f263bf000 0 1 0 0 0 
+7f3f263c0000 0 1 0 0 0 
+7f3f263c1000 0 1 0 0 0 
+7f3f263c2000 0 1 0 0 0 
+7f3f263c3000 0 1 0 0 0 
+7f3f263c4000 0 1 0 0 0 
+7f3f263c5000 0 1 0 0 0 
+7f3f263c6000 0 1 0 0 0 
+7f3f263c7000 0 1 0 0 0 
+7f3f263c8000 0 1 0 0 0 
+7f3f263c9000 0 1 0 0 0 
+7f3f263ca000 0 1 0 0 0 
+7f3f263cb000 0 1 0 0 0 
+7f3f263cc000 0 1 0 0 0 
+7f3f263cd000 0 1 0 0 0 
+7f3f263ce000 0 1 0 0 0 
+7f3f263cf000 0 1 0 0 0 
+7f3f263d0000 0 1 0 0 0 
+7f3f263d1000 0 1 0 0 0 
+7f3f263d2000 0 1 0 0 0 
+7f3f263d3000 0 1 0 0 0 
+7f3f263d4000 0 1 0 0 0 
+7f3f263d5000 0 1 0 0 0 
+7f3f263d6000 0 1 0 0 0 
+7f3f263d7000 0 1 0 0 0 
+7f3f263d8000 0 1 0 0 0 
+7f3f263d9000 0 1 0 0 0 
+7f3f263da000 0 1 0 0 0 
+7f3f263db000 0 1 0 0 0 
+7f3f263dc000 0 1 0 0 0 
+7f3f263dd000 0 1 0 0 0 
+7f3f263de000 0 1 0 0 0 
+7f3f263df000 0 1 0 0 0 
+7f3f263e0000 0 1 0 0 0 
+7f3f263e1000 0 1 0 0 0 
+7f3f263e2000 0 1 0 0 0 
+7f3f263e3000 0 1 0 0 0 
+7f3f263e4000 0 1 0 0 0 
+7f3f263e5000 0 1 0 0 0 
+7f3f263e6000 0 1 0 0 0 
+7f3f263e7000 0 1 0 0 0 
+7f3f263e8000 0 1 0 0 0 
+7f3f263e9000 0 1 0 0 0 
+7f3f263ea000 0 1 0 0 0 
+7f3f263eb000 0 1 0 0 0 
+7f3f263ec000 0 1 0 0 0 
+7f3f263ed000 0 1 0 0 0 
+7f3f263ee000 0 1 0 0 0 
+7f3f263ef000 0 1 0 0 0 
+7f3f263f0000 0 1 0 0 0 
+7f3f263f1000 0 1 0 0 0 
+7f3f263f2000 0 1 0 0 0 
+7f3f263f3000 0 1 0 0 0 
+7f3f263f4000 0 1 0 0 0 
+7f3f263f5000 0 1 0 0 0 
+7f3f263f6000 0 1 0 0 0 
+7f3f263f7000 0 1 0 0 0 
+7f3f263f8000 0 1 0 0 0 
+7f3f263f9000 0 1 0 0 0 
+7f3f263fa000 0 1 0 0 0 
+7f3f263fb000 0 1 0 0 0 
+7f3f263fc000 0 1 0 0 0 
+7f3f263fd000 0 1 0 0 0 
+7f3f263fe000 0 1 0 0 0 
+7f3f263ff000 0 1 0 0 0 
+7f3f26400000 0 1 0 0 0 
+7f3f26401000 0 1 0 0 0 
+7f3f26402000 0 1 0 0 0 
+7f3f26403000 0 1 0 0 0 
+7f3f26404000 0 1 0 0 0 
+7f3f26405000 0 1 0 0 0 
+7f3f26406000 0 1 0 0 0 
+7f3f26407000 0 1 0 0 0 
+7f3f26408000 0 1 0 0 0 
+7f3f26409000 0 1 0 0 0 
+7f3f2640a000 0 1 0 0 0 
+7f3f2640b000 0 1 0 0 0 
+7f3f2640c000 0 1 0 0 0 
+7f3f2640d000 0 1 0 0 0 
+7f3f2640e000 0 1 0 0 0 
+7f3f2640f000 0 1 0 0 0 
+7f3f26410000 0 1 0 0 0 
+7f3f26411000 0 1 0 0 0 
+7f3f26412000 0 1 0 0 0 
+7f3f26413000 0 1 0 0 0 
+7f3f26414000 0 1 0 0 0 
+7f3f26415000 0 1 0 0 0 
+7f3f26416000 0 1 0 0 0 
+7f3f26417000 0 1 0 0 0 
+7f3f26418000 0 1 0 0 0 
+7f3f26419000 0 1 0 0 0 
+7f3f2641a000 0 1 0 0 0 
+7f3f2641b000 0 1 0 0 0 
+7f3f2641c000 0 1 0 0 0 
+7f3f2641d000 0 1 0 0 0 
+7f3f2641e000 0 1 0 0 0 
+7f3f2641f000 0 1 0 0 0 
+7f3f26420000 0 1 0 0 0 
+7f3f26421000 0 1 0 0 0 
+7f3f26422000 0 1 0 0 0 
+7f3f26423000 0 1 0 0 0 
+7f3f26424000 0 1 0 0 0 
+7f3f26425000 0 1 0 0 0 
+7f3f26426000 0 1 0 0 0 
+7f3f26427000 0 1 0 0 0 
+7f3f26428000 0 1 0 0 0 
+7f3f26429000 0 1 0 0 0 
+7f3f2642a000 0 1 0 0 0 
+7f3f2642b000 0 1 0 0 0 
+7f3f2642c000 0 1 0 0 0 
+7f3f2642d000 0 1 0 0 0 
+7f3f2642e000 0 1 0 0 0 
+7f3f2642f000 0 1 0 0 0 
+7f3f26430000 0 1 0 0 0 
+7f3f26431000 0 1 0 0 0 
+7f3f26432000 0 1 0 0 0 
+7f3f26433000 0 1 0 0 0 
+7f3f26434000 0 1 0 0 0 
+7f3f26435000 0 1 0 0 0 
+7f3f26436000 0 1 0 0 0 
+7f3f26437000 0 1 0 0 0 
+7f3f26438000 0 1 0 0 0 
+7f3f26439000 0 1 0 0 0 
+7f3f2643a000 0 1 0 0 0 
+7f3f2643b000 0 1 0 0 0 
+7f3f2643c000 0 1 0 0 0 
+7f3f2643d000 0 1 0 0 0 
+7f3f2643e000 0 1 0 0 0 
+7f3f2643f000 0 1 0 0 0 
+7f3f26440000 0 1 0 0 0 
+7f3f26441000 0 1 0 0 0 
+7f3f26442000 0 1 0 0 0 
+7f3f26443000 0 1 0 0 0 
+7f3f26444000 0 1 0 0 0 
+7f3f26445000 0 1 0 0 0 
+7f3f26446000 0 1 0 0 0 
+7f3f26447000 0 1 0 0 0 
+7f3f26448000 0 1 0 0 0 
+7f3f26449000 0 1 0 0 0 
+7f3f2644a000 0 1 0 0 0 
+7f3f2644b000 0 1 0 0 0 
+7f3f2644c000 0 1 0 0 0 
+7f3f2644d000 0 1 0 0 0 
+7f3f2644e000 0 1 0 0 0 
+7f3f2644f000 0 1 0 0 0 
+7f3f26450000 0 1 0 0 0 
+7f3f26451000 0 1 0 0 0 
+7f3f26452000 0 1 0 0 0 
+7f3f26453000 0 1 0 0 0 
+7f3f26454000 0 1 0 0 0 
+7f3f26455000 0 1 0 0 0 
+7f3f26456000 0 1 0 0 0 
+7f3f26457000 0 1 0 0 0 
+7f3f26458000 0 1 0 0 0 
+7f3f26459000 0 1 0 0 0 
+7f3f2645a000 0 1 0 0 0 
+7f3f2645b000 0 1 0 0 0 
+7f3f2645c000 0 1 0 0 0 
+7f3f2645d000 0 1 0 0 0 
+7f3f2645e000 0 1 0 0 0 
+7f3f2645f000 0 1 0 0 0 
+7f3f26460000 0 1 0 0 0 
+7f3f26461000 0 1 0 0 0 
+7f3f26462000 0 1 0 0 0 
+7f3f26463000 0 1 0 0 0 
+7f3f26464000 0 1 0 0 0 
+7f3f26465000 0 1 0 0 0 
+7f3f26466000 0 1 0 0 0 
+7f3f26467000 0 1 0 0 0 
+7f3f26468000 0 1 0 0 0 
+7f3f26469000 0 1 0 0 0 
+7f3f2646a000 0 1 0 0 0 
+7f3f2646b000 0 1 0 0 0 
+7f3f2646c000 0 1 0 0 0 
+7f3f2646d000 0 1 0 0 0 
+7f3f2646e000 0 1 0 0 0 
+7f3f2646f000 0 1 0 0 0 
+7f3f26470000 0 1 0 0 0 
+7f3f26471000 0 1 0 0 0 
+7f3f26472000 0 1 0 0 0 
+7f3f26473000 0 1 0 0 0 
+7f3f26474000 0 1 0 0 0 
+7f3f26475000 0 1 0 0 0 
+7f3f26476000 0 1 0 0 0 
+7f3f26477000 0 1 0 0 0 
+7f3f26478000 0 1 0 0 0 
+7f3f26479000 0 1 0 0 0 
+7f3f2647a000 0 1 0 0 0 
+7f3f2647b000 0 1 0 0 0 
+7f3f2647c000 0 1 0 0 0 
+7f3f2647d000 0 1 0 0 0 
+7f3f2647e000 0 1 0 0 0 
+7f3f2647f000 0 1 0 0 0 
+7f3f26480000 0 1 0 0 0 
+7f3f26481000 0 1 0 0 0 
+7f3f26482000 0 1 0 0 0 
+7f3f26483000 0 1 0 0 0 
+7f3f26484000 0 1 0 0 0 
+7f3f26485000 0 1 0 0 0 
+7f3f26486000 0 1 0 0 0 
+7f3f26487000 0 1 0 0 0 
+7f3f26488000 0 1 0 0 0 
+7f3f26489000 0 1 0 0 0 
+7f3f2648a000 0 1 0 0 0 
+7f3f2648b000 0 1 0 0 0 
+7f3f2648c000 0 1 0 0 0 
+7f3f2648d000 0 1 0 0 0 
+7f3f2648e000 0 1 0 0 0 
+7f3f2648f000 0 1 0 0 0 
+7f3f26490000 0 1 0 0 0 
+7f3f26491000 0 1 0 0 0 
+7f3f26492000 0 1 0 0 0 
+7f3f26493000 0 1 0 0 0 
+7f3f26494000 0 1 0 0 0 
+7f3f26495000 0 1 0 0 0 
+7f3f26496000 0 1 0 0 0 
+7f3f26497000 0 1 0 0 0 
+7f3f26498000 0 1 0 0 0 
+7f3f26499000 0 1 0 0 0 
+7f3f2649a000 0 1 0 0 0 
+7f3f2649b000 0 1 0 0 0 
+7f3f2649c000 0 1 0 0 0 
+7f3f2649d000 0 1 0 0 0 
+7f3f2649e000 0 1 0 0 0 
+7f3f2649f000 0 1 0 0 0 
+7f3f264a0000 0 1 0 0 0 
+7f3f264a1000 0 1 0 0 0 
+7f3f264a2000 0 1 0 0 0 
+7f3f264a3000 0 1 0 0 0 
+7f3f264a4000 0 1 0 0 0 
+7f3f264a5000 0 1 0 0 0 
+7f3f264a6000 0 1 0 0 0 
+7f3f264a7000 0 1 0 0 0 
+7f3f264a8000 0 1 0 0 0 
+7f3f264a9000 0 1 0 0 0 
+7f3f264aa000 0 1 0 0 0 
+7f3f264ab000 0 1 0 0 0 
+7f3f264ac000 0 1 0 0 0 
+7f3f264ad000 0 1 0 0 0 
+7f3f264ae000 0 1 0 0 0 
+7f3f264af000 0 1 0 0 0 
+7f3f264b0000 0 1 0 0 0 
+7f3f264b1000 0 1 0 0 0 
+7f3f264b2000 0 1 0 0 0 
+7f3f264b3000 0 1 0 0 0 
+7f3f264b4000 0 1 0 0 0 
+7f3f264b5000 0 1 0 0 0 
+7f3f264b6000 0 1 0 0 0 
+7f3f264b7000 0 1 0 0 0 
+7f3f264b8000 0 1 0 0 0 
+7f3f264b9000 0 1 0 0 0 
+7f3f264ba000 0 1 0 0 0 
+7f3f264bb000 0 1 0 0 0 
+7f3f264bc000 0 1 0 0 0 
+7f3f264bd000 0 1 0 0 0 
+7f3f264be000 0 1 0 0 0 
+7f3f264bf000 0 1 0 0 0 
+7f3f264c0000 0 1 0 0 0 
+7f3f264c1000 0 1 0 0 0 
+7f3f264c2000 0 1 0 0 0 
+7f3f264c3000 0 1 0 0 0 
+7f3f264c4000 0 1 0 0 0 
+7f3f264c5000 0 1 0 0 0 
+7f3f264c6000 0 1 0 0 0 
+7f3f264c7000 0 1 0 0 0 
+7f3f264c8000 0 1 0 0 0 
+7f3f264c9000 0 1 0 0 0 
+7f3f264ca000 0 1 0 0 0 
+7f3f264cb000 0 1 0 0 0 
+7f3f264cc000 0 1 0 0 0 
+7f3f264cd000 0 1 0 0 0 
+7f3f264ce000 0 1 0 0 0 
+7f3f264cf000 0 1 0 0 0 
+7f3f264d0000 0 1 0 0 0 
+7f3f264d1000 0 1 0 0 0 
+7f3f264d2000 0 1 0 0 0 
+7f3f264d3000 0 1 0 0 0 
+7f3f264d4000 0 1 0 0 0 
+7f3f264d5000 0 1 0 0 0 
+7f3f264d6000 0 1 0 0 0 
+7f3f264d7000 0 1 0 0 0 
+7f3f264d8000 0 1 0 0 0 
+7f3f264d9000 0 1 0 0 0 
+7f3f264da000 0 1 0 0 0 
+7f3f264db000 0 1 0 0 0 
+7f3f264dc000 0 1 0 0 0 
+7f3f264dd000 0 1 0 0 0 
+7f3f264de000 0 1 0 0 0 
+7f3f264df000 0 1 0 0 0 
+7f3f264e0000 0 1 0 0 0 
+7f3f264e1000 0 1 0 0 0 
+7f3f264e2000 0 1 0 0 0 
+7f3f264e3000 0 1 0 0 0 
+7f3f264e4000 0 1 0 0 0 
+7f3f264e5000 0 1 0 0 0 
+7f3f264e6000 0 1 0 0 0 
+7f3f264e7000 0 1 0 0 0 
+7f3f264e8000 0 1 0 0 0 
+7f3f264e9000 0 1 0 0 0 
+7f3f264ea000 0 1 0 0 0 
+7f3f264eb000 0 1 0 0 0 
+7f3f264ec000 0 1 0 0 0 
+7f3f264ed000 0 1 0 0 0 
+7f3f264ee000 0 1 0 0 0 
+7f3f264ef000 0 1 0 0 0 
+7f3f264f0000 0 1 0 0 0 
+7f3f264f1000 0 1 0 0 0 
+7f3f264f2000 0 1 0 0 0 
+7f3f264f3000 0 1 0 0 0 
+7f3f264f4000 0 1 0 0 0 
+7f3f264f5000 0 1 0 0 0 
+7f3f264f6000 0 1 0 0 0 
+7f3f264f7000 0 1 0 0 0 
+7f3f264f8000 0 1 0 0 0 
+7f3f264f9000 0 1 0 0 0 
+7f3f264fa000 0 1 0 0 0 
+7f3f264fb000 0 1 0 0 0 
+7f3f264fc000 0 1 0 0 0 
+7f3f264fd000 0 1 0 0 0 
+7f3f264fe000 0 1 0 0 0 
+7f3f264ff000 0 1 0 0 0 
+7f3f26500000 0 1 0 0 0 
+7f3f26501000 0 1 0 0 0 
+7f3f26502000 0 1 0 0 0 
+7f3f26503000 0 1 0 0 0 
+7f3f26504000 0 1 0 0 0 
+7f3f26505000 0 1 0 0 0 
+7f3f26506000 0 1 0 0 0 
+7f3f26507000 0 1 0 0 0 
+7f3f26508000 0 1 0 0 0 
+7f3f26509000 0 1 0 0 0 
+7f3f2650a000 0 1 0 0 0 
+7f3f2650b000 0 1 0 0 0 
+7f3f2650c000 0 1 0 0 0 
+7f3f2650d000 0 1 0 0 0 
+7f3f2650e000 0 1 0 0 0 
+7f3f2650f000 0 1 0 0 0 
+7f3f26510000 0 1 0 0 0 
+7f3f26511000 0 1 0 0 0 
+7f3f26512000 0 1 0 0 0 
+7f3f26513000 0 1 0 0 0 
+7f3f26514000 0 1 0 0 0 
+7f3f26515000 0 1 0 0 0 
+7f3f26516000 0 1 0 0 0 
+7f3f26517000 0 1 0 0 0 
+7f3f26518000 0 1 0 0 0 
+7f3f26519000 0 1 0 0 0 
+7f3f2651a000 0 1 0 0 0 
+7f3f2651b000 0 1 0 0 0 
+7f3f2651c000 0 1 0 0 0 
+7f3f2651d000 0 1 0 0 0 
+7f3f2651e000 0 1 0 0 0 
+7f3f2651f000 0 1 0 0 0 
+7f3f26520000 0 1 0 0 0 
+7f3f26521000 0 1 0 0 0 
+7f3f26522000 0 1 0 0 0 
+7f3f26523000 0 1 0 0 0 
+7f3f26524000 0 1 0 0 0 
+7f3f26525000 0 1 0 0 0 
+7f3f26526000 0 1 0 0 0 
+7f3f26527000 0 1 0 0 0 
+7f3f26528000 0 1 0 0 0 
+7f3f26529000 0 1 0 0 0 
+7f3f2652a000 0 1 0 0 0 
+7f3f2652b000 0 1 0 0 0 
+7f3f2652c000 0 1 0 0 0 
+7f3f2652d000 0 1 0 0 0 
+7f3f2652e000 0 1 0 0 0 
+7f3f2652f000 0 1 0 0 0 
+7f3f26530000 0 1 0 0 0 
+7f3f26531000 0 1 0 0 0 
+7f3f26532000 0 1 0 0 0 
+7f3f26533000 0 1 0 0 0 
+7f3f26534000 0 1 0 0 0 
+7f3f26535000 0 1 0 0 0 
+7f3f26536000 0 1 0 0 0 
+7f3f26537000 0 1 0 0 0 
+7f3f26538000 0 1 0 0 0 
+7f3f26539000 0 1 0 0 0 
+7f3f2653a000 0 1 0 0 0 
+7f3f2653b000 0 1 0 0 0 
+7f3f2653c000 0 1 0 0 0 
+7f3f2653d000 0 1 0 0 0 
+7f3f2653e000 0 1 0 0 0 
+7f3f2653f000 0 1 0 0 0 
+7f3f26540000 0 1 0 0 0 
+7f3f26541000 0 1 0 0 0 
+7f3f26542000 0 1 0 0 0 
+7f3f26543000 0 1 0 0 0 
+7f3f26544000 0 1 0 0 0 
+7f3f26545000 0 1 0 0 0 
+7f3f26546000 0 1 0 0 0 
+7f3f26547000 0 1 0 0 0 
+7f3f26548000 0 1 0 0 0 
+7f3f26549000 0 1 0 0 0 
+7f3f2654a000 0 1 0 0 0 
+7f3f2654b000 0 1 0 0 0 
+7f3f2654c000 0 1 0 0 0 
+7f3f2654d000 0 1 0 0 0 
+7f3f2654e000 0 1 0 0 0 
+7f3f2654f000 0 1 0 0 0 
+7f3f26550000 0 1 0 0 0 
+7f3f26551000 0 1 0 0 0 
+7f3f26552000 0 1 0 0 0 
+7f3f26553000 0 1 0 0 0 
+7f3f26554000 0 1 0 0 0 
+7f3f26555000 0 1 0 0 0 
+7f3f26556000 0 1 0 0 0 
+7f3f26557000 0 1 0 0 0 
+7f3f26558000 0 1 0 0 0 
+7f3f26559000 0 1 0 0 0 
+7f3f2655a000 0 1 0 0 0 
+7f3f2655b000 0 1 0 0 0 
+7f3f2655c000 0 1 0 0 0 
+7f3f2655d000 0 1 0 0 0 
+7f3f2655e000 0 1 0 0 0 
+7f3f2655f000 0 1 0 0 0 
+7f3f26560000 0 1 0 0 0 
+7f3f26561000 0 1 0 0 0 
+7f3f26562000 0 1 0 0 0 
+7f3f26563000 0 1 0 0 0 
+7f3f26564000 0 1 0 0 0 
+7f3f26565000 0 1 0 0 0 
+7f3f26566000 0 1 0 0 0 
+7f3f26567000 0 1 0 0 0 
+7f3f26568000 0 1 0 0 0 
+7f3f26569000 0 1 0 0 0 
+7f3f2656a000 0 1 0 0 0 
+7f3f2656b000 0 1 0 0 0 
+7f3f2656c000 0 1 0 0 0 
+7f3f2656d000 0 1 0 0 0 
+7f3f2656e000 0 1 0 0 0 
+7f3f2656f000 0 1 0 0 0 
+7f3f26570000 0 1 0 0 0 
+7f3f26571000 0 1 0 0 0 
+7f3f26572000 0 1 0 0 0 
+7f3f26573000 0 1 0 0 0 
+7f3f26574000 0 1 0 0 0 
+7f3f26575000 0 1 0 0 0 
+7f3f26576000 0 1 0 0 0 
+7f3f26577000 0 1 0 0 0 
+7f3f26578000 0 1 0 0 0 
+7f3f26579000 0 1 0 0 0 
+7f3f2657a000 0 1 0 0 0 
+7f3f2657b000 0 1 0 0 0 
+7f3f2657c000 0 1 0 0 0 
+7f3f2657d000 0 1 0 0 0 
+7f3f2657e000 0 1 0 0 0 
+7f3f2657f000 0 1 0 0 0 
+7f3f26580000 0 1 0 0 0 
+7f3f26581000 0 1 0 0 0 
+7f3f26582000 0 1 0 0 0 
+7f3f26583000 0 1 0 0 0 
+7f3f26584000 0 1 0 0 0 
+7f3f26585000 0 1 0 0 0 
+7f3f26586000 0 1 0 0 0 
+7f3f26587000 0 1 0 0 0 
+7f3f26588000 0 1 0 0 0 
+7f3f26589000 0 1 0 0 0 
+7f3f2658a000 0 1 0 0 0 
+7f3f2658b000 0 1 0 0 0 
+7f3f2658c000 0 1 0 0 0 
+7f3f2658d000 0 1 0 0 0 
+7f3f2658e000 0 1 0 0 0 
+7f3f2658f000 0 1 0 0 0 
+7f3f26590000 0 1 0 0 0 
+7f3f26591000 0 1 0 0 0 
+7f3f26592000 0 1 0 0 0 
+7f3f26593000 0 1 0 0 0 
+7f3f26594000 0 1 0 0 0 
+7f3f26595000 0 1 0 0 0 
+7f3f26596000 0 1 0 0 0 
+7f3f26597000 0 1 0 0 0 
+7f3f26598000 0 1 0 0 0 
+7f3f26599000 0 1 0 0 0 
+7f3f2659a000 0 1 0 0 0 
+7f3f2659b000 0 1 0 0 0 
+7f3f2659c000 0 1 0 0 0 
+7f3f2659d000 0 1 0 0 0 
+7f3f2659e000 0 1 0 0 0 
+7f3f2659f000 0 1 0 0 0 
+7f3f265a0000 0 1 0 0 0 
+7f3f265a1000 0 1 0 0 0 
+7f3f265a2000 0 1 0 0 0 
+7f3f265a3000 0 1 0 0 0 
+7f3f265a4000 0 1 0 0 0 
+7f3f265a5000 0 1 0 0 0 
+7f3f265a6000 0 1 0 0 0 
+7f3f265a7000 0 1 0 0 0 
+7f3f265a8000 0 1 0 0 0 
+7f3f265a9000 0 1 0 0 0 
+7f3f265aa000 0 1 0 0 0 
+7f3f265ab000 0 1 0 0 0 
+7f3f265ac000 0 1 0 0 0 
+7f3f265ad000 0 1 0 0 0 
+7f3f265ae000 0 1 0 0 0 
+7f3f265af000 0 1 0 0 0 
+7f3f265b0000 0 1 0 0 0 
+7f3f265b1000 0 1 0 0 0 
+7f3f265b2000 0 1 0 0 0 
+7f3f265b3000 0 1 0 0 0 
+7f3f265b4000 0 1 0 0 0 
+7f3f265b5000 0 1 0 0 0 
+7f3f265b6000 0 1 0 0 0 
+7f3f265b7000 0 1 0 0 0 
+7f3f265b8000 0 1 0 0 0 
+7f3f265b9000 0 1 0 0 0 
+7f3f265ba000 0 1 0 0 0 
+7f3f265bb000 0 1 0 0 0 
+7f3f265bc000 0 1 0 0 0 
+7f3f265bd000 0 1 0 0 0 
+7f3f265be000 0 1 0 0 0 
+7f3f265bf000 0 1 0 0 0 
+7f3f265c0000 0 1 0 0 0 
+7f3f265c1000 0 1 0 0 0 
+7f3f265c2000 0 1 0 0 0 
+7f3f265c3000 0 1 0 0 0 
+7f3f265c4000 0 1 0 0 0 
+7f3f265c5000 0 1 0 0 0 
+7f3f265c6000 0 1 0 0 0 
+7f3f265c7000 0 1 0 0 0 
+7f3f265c8000 0 1 0 0 0 
+7f3f265c9000 0 1 0 0 0 
+7f3f265ca000 0 1 0 0 0 
+7f3f265cb000 0 1 0 0 0 
+7f3f265cc000 0 1 0 0 0 
+7f3f265cd000 0 1 0 0 0 
+7f3f265ce000 0 1 0 0 0 
+7f3f265cf000 0 1 0 0 0 
+7f3f265d0000 0 1 0 0 0 
+7f3f265d1000 0 1 0 0 0 
+7f3f265d2000 0 1 0 0 0 
+7f3f265d3000 0 1 0 0 0 
+7f3f265d4000 0 1 0 0 0 
+7f3f265d5000 0 1 0 0 0 
+7f3f265d6000 0 1 0 0 0 
+7f3f265d7000 0 1 0 0 0 
+7f3f265d8000 0 1 0 0 0 
+7f3f265d9000 0 1 0 0 0 
+7f3f265da000 0 1 0 0 0 
+7f3f265db000 0 1 0 0 0 
+7f3f265dc000 0 1 0 0 0 
+7f3f265dd000 0 1 0 0 0 
+7f3f265de000 0 1 0 0 0 
+7f3f265df000 0 1 0 0 0 
+7f3f265e0000 0 1 0 0 0 
+7f3f265e1000 0 1 0 0 0 
+7f3f265e2000 0 1 0 0 0 
+7f3f265e3000 0 1 0 0 0 
+7f3f265e4000 23394f 1 0 0 1 
+7f3f265e5000 1e38e5 1 0 0 1 
+7f3f265e6000 186b44 1 0 0 1 
+7f3f265e7000 1358f8 1 0 0 1 
+7f3f265e8000 0 1 0 0 0 
+7f3f265e9000 2108f4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265ea000 20fd1e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265eb000 21032d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265ec000 27ee0c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265ed000 20ff9a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265ee000 210335 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265ef000 210ab2 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265f0000 27ee10 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265f1000 2109ae 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265f2000 20fda0 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265f3000 27ee9d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265f4000 21046e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265f5000 210403 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265f6000 20fc70 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265f7000 20ffc9 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265f8000 20fb3b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265f9000 2105c7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265fa000 21027f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265fb000 27ee90 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265fc000 27eea7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265fd000 20f6d3 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265fe000 20fd11 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f265ff000 20fa48 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26600000 20fb01 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26601000 210321 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26602000 210776 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26603000 210b7e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26604000 27ee86 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26605000 2104b8 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26606000 20fef8 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26607000 276dfc 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26608000 27ee02 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26609000 27ee03 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2660a000 276df6 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2660b000 276df7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2660c000 210276 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2660d000 210277 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2660e000 2109b0 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2660f000 2109b1 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26610000 210906 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26611000 210907 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26612000 210908 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26613000 210909 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26614000 21090a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26615000 21090b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26616000 20ffe9 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26617000 20ffea 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26618000 20ffeb 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26619000 20ffec 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2661a000 20ffed 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2661b000 20ffee 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2661c000 20ffef 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2661d000 20fff2 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2661e000 20fff3 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2661f000 20fff4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26620000 20fff5 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26621000 20fff6 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26622000 20fff7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26623000 20fff8 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26624000 20fff9 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26625000 20fffa 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26626000 210983 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26627000 210984 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26628000 210985 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26629000 210986 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2662a000 210987 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2662b000 210988 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2662c000 210989 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2662d000 21098a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2662e000 21098b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2662f000 21098c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26630000 20f4f5 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26631000 20f4f6 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26632000 20f4f7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26633000 20f4f8 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26634000 20f4f9 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26635000 20f4fa 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26636000 20f4fb 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26637000 20f4fc 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26638000 20f4fd 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26639000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2663a000 20f4ff 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2663b000 210592 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2663c000 210593 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2663d000 210594 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2663e000 210595 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2663f000 210596 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26640000 210597 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26641000 21059e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26642000 20fb3d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26643000 20fb3e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26644000 20fb3f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26645000 20fb40 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26646000 20fb45 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26647000 20fb46 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26648000 20fb48 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26649000 20fb49 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2664a000 20fb4a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2664b000 20fb4b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2664c000 20fb4c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2664d000 20fb4d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2664e000 20fb4f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2664f000 20fb50 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26650000 20fb51 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26651000 20fb52 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26652000 20fb53 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26653000 20fb56 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26654000 20fb59 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26655000 20fb5a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26656000 20fb5e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26657000 20fb61 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26658000 20fb62 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26659000 20fb63 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2665a000 20fb64 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2665b000 20f67c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2665c000 20f67d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2665d000 20f67e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2665e000 20f67f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2665f000 20f680 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26660000 20f681 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26661000 20f682 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26662000 20f683 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26663000 20f684 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26664000 20f685 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26665000 20f686 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26666000 20f687 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26667000 20f688 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26668000 20f7a7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26669000 20f7a8 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2666a000 20f7a9 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2666b000 20f7aa 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2666c000 20f7ab 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2666d000 20f7ac 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2666e000 20f7ad 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2666f000 20f7ae 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26670000 20f7af 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26671000 20f7b0 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26672000 20f7b1 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26673000 20f7b2 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26674000 20f7b3 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26675000 20f7b4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26676000 20f7b5 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26677000 20f7b6 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26678000 20f7b7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26679000 21098d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2667a000 21098e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2667b000 21098f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2667c000 210990 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2667d000 210991 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2667e000 210992 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2667f000 2105a0 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26680000 2105a1 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26681000 2105a2 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26682000 2105a3 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26683000 2105a4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26684000 2105a5 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26685000 2105a6 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26686000 2105a7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26687000 2105a9 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26688000 2105b0 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26689000 2105b1 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2668a000 2105b2 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2668b000 2105b3 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2668c000 2105b4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2668d000 2105b5 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2668e000 2105b6 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2668f000 210661 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26690000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26691000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26692000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26693000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26694000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26695000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26696000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26697000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26698000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26699000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2669a000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2669b000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2669c000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2669d000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2669e000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2669f000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266a0000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266a1000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266a2000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266a3000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266a4000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266a5000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266a6000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266a7000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266a8000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266a9000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266aa000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ab000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ac000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ad000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ae000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266af000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266b0000 21044c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266b1000 21044d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266b2000 21044e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266b3000 21044f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266b4000 210458 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266b5000 210459 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266b6000 21045b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266b7000 21045c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266b8000 21045d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266b9000 21045e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ba000 21045f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266bb000 210460 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266bc000 210461 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266bd000 210462 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266be000 210463 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266bf000 2102a5 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266c0000 2102a6 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266c1000 2102a7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266c2000 2102a8 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266c3000 2102a9 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266c4000 2102aa 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266c5000 2102ab 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266c6000 2102ac 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266c7000 2102ad 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266c8000 2102ae 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266c9000 2102af 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ca000 2102b0 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266cb000 2102b1 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266cc000 2102b2 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266cd000 2102b3 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ce000 2102b4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266cf000 210239 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266d0000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266d1000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266d2000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266d3000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266d4000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266d5000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266d6000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266d7000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266d8000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266d9000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266da000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266db000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266dc000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266dd000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266de000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266df000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266e0000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266e1000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266e2000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266e3000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266e4000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266e5000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266e6000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266e7000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266e8000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266e9000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ea000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266eb000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ec000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ed000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ee000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ef000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266f0000 21071e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266f1000 21071f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266f2000 210720 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266f3000 210721 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266f4000 210722 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266f5000 210723 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266f6000 210724 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266f7000 210725 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266f8000 210726 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266f9000 210727 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266fa000 210728 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266fb000 210729 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266fc000 21072a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266fd000 21072b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266fe000 21072c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f266ff000 21072d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26700000 21072e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26701000 21072f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26702000 2107a2 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26703000 2107a3 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26704000 2107a4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26705000 2107a5 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26706000 20ff79 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26707000 20f9d2 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26708000 20f9d3 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26709000 20f9d4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2670a000 20f9d5 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2670b000 20f9d6 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2670c000 20f9d7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2670d000 20f9d8 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2670e000 20f9d9 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2670f000 20f9da 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26710000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26711000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26712000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26713000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26714000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26715000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26716000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26717000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26718000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26719000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2671a000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2671b000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2671c000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2671d000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2671e000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2671f000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26720000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26721000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26722000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26723000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26724000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26725000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26726000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26727000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26728000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26729000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2672a000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2672b000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2672c000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2672d000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2672e000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2672f000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26730000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26731000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26732000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26733000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26734000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26735000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26736000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26737000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26738000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26739000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2673a000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2673b000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2673c000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2673d000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2673e000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2673f000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26740000 20fa99 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26741000 20fa9a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26742000 20fa9b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26743000 20fa9c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26744000 20fa9d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26745000 20fa9e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26746000 20fa9f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26747000 20faa0 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26748000 20f665 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26749000 20f666 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2674a000 20f667 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2674b000 20f668 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2674c000 20f669 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2674d000 20f66a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2674e000 20f66b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2674f000 20f670 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26750000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26751000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26752000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26753000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26754000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26755000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26756000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26757000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26758000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26759000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2675a000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2675b000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2675c000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2675d000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2675e000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2675f000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26760000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26761000 20f751 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26762000 20f752 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26763000 20f753 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26764000 20f756 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26765000 20f757 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26766000 20f758 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26767000 20f759 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26768000 20f75a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26769000 20f75b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2676a000 20f75c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2676b000 20f75d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2676c000 20f75e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2676d000 20f75f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2676e000 20f760 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2676f000 20f761 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26770000 20f762 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26771000 20f763 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26772000 20f765 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26773000 20f76e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26774000 20f76f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26775000 20f771 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26776000 20fa72 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26777000 20fa73 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26778000 20fa74 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26779000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2677a000 20fa81 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2677b000 20fa82 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2677c000 20fa83 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2677d000 20fa84 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2677e000 20fa85 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2677f000 20fa86 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26780000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26781000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26782000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26783000 20f502 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26784000 20f503 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26785000 20f504 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26786000 20f505 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26787000 20f506 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26788000 20f507 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26789000 20f508 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2678a000 20f509 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2678b000 20f50a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2678c000 20f50b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2678d000 20f50c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2678e000 21041c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2678f000 210ae9 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26790000 210aea 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26791000 210aeb 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26792000 210aec 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26793000 210aed 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26794000 210aee 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26795000 210aef 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26796000 210af0 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26797000 210af1 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26798000 210af2 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f26799000 210af3 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2679a000 210af4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2679b000 210af5 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2679c000 210af6 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2679d000 210af7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2679e000 210af8 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f2679f000 20fb9d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267a0000 20fb9e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267a1000 20fb9f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267a2000 20fba0 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267a3000 20fba1 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267a4000 20fba2 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267a5000 20fba3 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267a6000 20fba4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267a7000 20fba5 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267a8000 20fba6 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267a9000 20fba7 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267aa000 20fba8 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267ab000 20fba9 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267ac000 20fbaa 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267ad000 20fbab 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267ae000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267af000 210492 1 1 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267b0000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267b1000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267b2000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267b3000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267b4000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267b5000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267b6000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267b7000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267b8000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267b9000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267ba000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267bb000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267bc000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267bd000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267be000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267bf000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267c0000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267c1000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267c2000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267c3000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267c4000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267c5000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267c6000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267c7000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267c8000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267c9000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267ca000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267cb000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267cc000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267cd000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267ce000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267cf000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d0000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d1000 1a49fb 1 0 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d2000 183baa 1 0 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d3000 21b00e 1 0 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d4000 25abed 1 0 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d5000 139e82 1 0 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d6000 20c9a3 1 0 0 1 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f3f267d7000 231cfc 1 0 0 1 
+7f3f267d8000 247a83 1 0 0 1 
+7f3f267d9000 0 1 0 0 0 
+7f3f267da000 150a91 1 0 0 1 
+7f3f267db000 21011a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267dc000 21011b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267dd000 21011c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267de000 21011d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267df000 21011e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e0000 21011f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e1000 210231 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e2000 210232 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e3000 210233 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e4000 210234 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e5000 210235 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e6000 210236 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e7000 210ac4 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e8000 210238 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267e9000 20fc78 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267ea000 20fc79 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267eb000 20fc7a 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267ec000 20fc7b 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267ed000 20fc7c 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267ee000 20fc7d 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267ef000 20fc7e 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f0000 20fc7f 1 1 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f1000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f2000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f3000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f4000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f5000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f6000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f7000 0 1 0 0 0 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267f8000 19b4cf 1 0 0 1 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f3f267fa000 0 1 0 0 0 
+7f3f267fb000 0 1 0 0 0 
+7f3f267fc000 0 1 0 0 0 
+7f3f267fd000 186b47 1 0 0 1 
+7f3f267fe000 13e037 1 0 0 1 
+7f3f267ff000 2571a7 1 0 0 1 
+7f3f2681f000 210b78 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26820000 210316 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26821000 2104e8 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26822000 20ffba 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26823000 20ff9f 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26824000 27ee5c 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26825000 210268 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26826000 276c68 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26827000 20fc57 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26828000 276dd2 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26829000 276dd7 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2682a000 21047d 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2682b000 2108ee 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2682c000 20fe94 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2682d000 276dd9 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2682e000 2102a0 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2682f000 210b5d 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26830000 27ee35 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26831000 276dda 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26832000 27eeb8 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26833000 276dd1 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26834000 2102fb 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26835000 2107f9 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26836000 20ff8a 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26837000 210314 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26838000 21035b 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26839000 276d64 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2683a000 27ee29 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2683b000 27ee20 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2683c000 27ee66 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2683d000 27ee7c 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2683e000 27ee6b 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2683f000 27ee91 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26840000 27ee78 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26841000 27ee65 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26842000 210965 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26843000 27ee6a 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26844000 27ee67 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26845000 20fdbf 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26846000 210474 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26847000 210476 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26848000 210008 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f26849000 210006 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2684a000 210292 1 1 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2684c000 1f9985 1 0 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2684d000 1868b5 1 0 0 1 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f3f2684e000 17e3b9 1 0 0 1 
+7fffdd625000 0 0 0 0 0 [stack]
+7fffdd626000 0 0 0 0 0 [stack]
+7fffdd627000 0 0 0 0 0 [stack]
+7fffdd628000 0 0 0 0 0 [stack]
+7fffdd629000 0 0 0 0 0 [stack]
+7fffdd62a000 0 0 0 0 0 [stack]
+7fffdd62b000 0 0 0 0 0 [stack]
+7fffdd62c000 0 0 0 0 0 [stack]
+7fffdd62d000 0 0 0 0 0 [stack]
+7fffdd62e000 0 0 0 0 0 [stack]
+7fffdd62f000 0 0 0 0 0 [stack]
+7fffdd630000 0 0 0 0 0 [stack]
+7fffdd631000 0 0 0 0 0 [stack]
+7fffdd632000 0 0 0 0 0 [stack]
+7fffdd633000 0 0 0 0 0 [stack]
+7fffdd634000 0 0 0 0 0 [stack]
+7fffdd635000 0 0 0 0 0 [stack]
+7fffdd636000 0 0 0 0 0 [stack]
+7fffdd637000 0 0 0 0 0 [stack]
+7fffdd638000 0 0 0 0 0 [stack]
+7fffdd639000 0 0 0 0 0 [stack]
+7fffdd63a000 0 0 0 0 0 [stack]
+7fffdd63b000 0 0 0 0 0 [stack]
+7fffdd63c000 0 0 0 0 0 [stack]
+7fffdd63d000 0 0 0 0 0 [stack]
+7fffdd63e000 0 0 0 0 0 [stack]
+7fffdd63f000 0 0 0 0 0 [stack]
+7fffdd640000 0 0 0 0 0 [stack]
+7fffdd641000 0 0 0 0 0 [stack]
+7fffdd642000 0 0 0 0 0 [stack]
+7fffdd643000 24df75 1 0 0 1 [stack]
+7fffdd644000 23b6d3 1 0 0 1 [stack]
+7fffdd645000 16a215 1 0 0 1 [stack]
+7fffdd7c6000 0 1 0 0 0 [vvar]
+7fffdd7c7000 0 1 0 0 0 [vvar]
+7fffdd7c8000 0 1 0 0 0 [vvar]
+7fffdd7c9000 0 1 0 0 0 [vvar]
+7fffdd7ca000 d2b9 1 1 0 1 [vdso]
+7fffdd7cb000 0 1 0 0 0 [vdso]
