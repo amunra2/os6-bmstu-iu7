@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.29)  13 MAY 2022 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.29)  13 MAY 2022 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1596,17 +1596,17 @@ File: img/app2_threads_result.png Graphic file (type png)
 Package pdftex.def Info: img/app2_threads_result.png  used on input line 73.
 (pdftex.def)             Requested size: 382.41164pt x 56.9055pt.
  (../src/app3.c [8 <./img/app2_threads_result.png>] [9])
-<img/app3_file_reverse.png, id=412, 652.4375pt x 34.1275pt>
+<img/app3_file_reverse.png, id=409, 652.4375pt x 34.1275pt>
 File: img/app3_file_reverse.png Graphic file (type png)
 <use img/app3_file_reverse.png>
 Package pdftex.def Info: img/app3_file_reverse.png  used on input line 96.
 (pdftex.def)             Requested size: 435.15968pt x 22.76219pt.
-<img/app3_file_normal.png, id=413, 656.4525pt x 43.16125pt>
+<img/app3_file_normal.png, id=410, 656.4525pt x 43.16125pt>
 File: img/app3_file_normal.png Graphic file (type png)
 <use img/app3_file_normal.png>
 Package pdftex.def Info: img/app3_file_normal.png  used on input line 97.
 (pdftex.def)             Requested size: 432.74915pt x 28.45274pt.
-<img/app3_result_info.png, id=414, 295.1025pt x 331.2375pt>
+<img/app3_result_info.png, id=411, 295.1025pt x 331.2375pt>
 File: img/app3_result_info.png Graphic file (type png)
 <use img/app3_result_info.png>
 Package pdftex.def Info: img/app3_result_info.png  used on input line 98.
@@ -1615,7 +1615,7 @@ Package pdftex.def Info: img/app3_result_info.png  used on input line 98.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/app3_scheme.png, id=415, 1549.79pt x 660.4675pt>
+<img/app3_scheme.png, id=412, 1549.79pt x 660.4675pt>
 File: img/app3_scheme.png Graphic file (type png)
 <use img/app3_scheme.png>
 Package pdftex.def Info: img/app3_scheme.png  used on input line 101.
@@ -1626,7 +1626,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [10 <./img/app3_file_reverse.png> <./img/app3_file_normal.png>]
 (../src/app3_threads.c [11 <./img/app3_result_info.png> <./img/app3_scheme.png>
 ]) [12]
-<img/app3_threads_file.png, id=501, 726.715pt x 35.13126pt>
+<img/app3_threads_file.png, id=500, 726.715pt x 35.13126pt>
 File: img/app3_threads_file.png Graphic file (type png)
 <use img/app3_threads_file.png>
 Package pdftex.def Info: img/app3_threads_file.png  used on input line 117.
@@ -1668,9 +1668,9 @@ lh-t2a/dpi600/labx2488.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/
 lh/lh-t2a/dpi600/labx2074.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfo
 ur/lh/lh-t2a/dpi600/larm1200.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/l
 jfour/lh/lh-t2a/dpi600/labx1200.pk>
-Output written on report.pdf (17 pages, 520820 bytes).
+Output written on report.pdf (17 pages, 522296 bytes).
 PDF statistics:
- 1146 PDF objects out of 1200 (max. 8388607)
+ 1149 PDF objects out of 1200 (max. 8388607)
  424 named destinations out of 1000 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
