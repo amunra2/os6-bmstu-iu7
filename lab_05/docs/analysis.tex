@@ -21,7 +21,7 @@
 
 После чего в цикле поочередно будут выведены символы из \texttt{buf1} и \texttt{buf2} (при этом после 8 итераций символы будут выводиться только из \texttt{buf1}).
 
-\imgHeight{80mm}{app1_scheme}{Связь между дескрипторами в первой программе}
+\imgHeight{80mm}{app1_scheme}{Связь между структурами в первой программе}
 
 \imgHeight{30mm}{app1_result}{Результат работы первой программы (однопоточная)}
 
@@ -52,7 +52,7 @@
 
 В этой программе создаются два дескриптора открытого файла при помощи функции \texttt{open()}. При этом в системной таблице открытых файлов создаются две новых записи. Затем в цикле поочередно считываются символы из файла и выводятся на экран (при этом на экран символы будут выводиться дважды, так как каждый \texttt{open()} создаст структуру \texttt{struct file}, каждая из которых будет иметь свой \texttt{f\_pos}, поэтому смещения в файловых дескрипторах будут независимы).
 
-\imgHeight{60mm}{app2_scheme}{Связь между дескрипторами во второй программе}
+\imgHeight{60mm}{app2_scheme}{Связь между структурами во второй программе}
 
 \imgHeight{20mm}{app2_result}{Результат работы второй программы (однопоточная)}
 
@@ -61,13 +61,13 @@
 
 \begin{center}
     \captionsetup{justification=raggedright,singlelinecheck=off}
-    \lstinputlisting[label=lst:app2,caption=Программа 2 (многопоточная)]{../src/app2_threads.c}
+    \lstinputlisting[label=lst:app2,caption=Программа 2 (многопоточная)]{../src/app2_threads_right.c}
 \end{center}
 
 
 \subsection{Обоснование}
 
-При многопоточной реализации возникает та же проблема, но при этом порядок вывода элементов хаотичен. В качестве решения данной проблемы при многопоточной реализации был использован \texttt{mutex}, а также разделяемая область памяти, то есть переменная \texttt{filePos}, которая отслеживает положение указателя и увеличивает его на один при чтении элемента из файла (следующий элемент затем читается из файла с места \texttt{filePos} с использованием функции \texttt{lseek()}).
+TODO
 
 
 \imgHeight{20mm}{app2_threads_result}{Результат работы второй программы (многопоточная)}
@@ -98,7 +98,7 @@
 \imgHeight{70mm}{app3_result_info}{Результат работы третьей программы - информация (однопоточная)}
 
 
-\imgHeight{70mm}{app3_scheme}{Связь между дескрипторами в третьей программе}
+\imgHeight{70mm}{app3_scheme}{Связь между структурами в третьей программе}
 
 \subsection{Многопоточная}
 
@@ -107,10 +107,11 @@
     \lstinputlisting[label=lst:app3,caption=Программа 3 (многопоточная)]{../src/app3_threads.c}
 \end{center}
 
-
+\vspace{-1.5cm}
 \subsection{Обоснование}
+\vspace{-0.7cm}
 
-При многопоточной реализации возникает та же проблема в перезаписью. В данной реализации в качестве решения проблемы предложено открывать файл в режиме \texttt{a (append)}. При этом информация не будет перезаписана, а буферы будут в порядке вызова \texttt{fclose()} записаны в файл.
+При многопоточной реализации возникает та же проблема в перезаписью. В данной реализации в качестве решения проблемы предложено открывать файл с опцией \texttt{<<a>> (O\_APPEND)} (тогда операция записи в файл станет атомарной, и перед каждым вызовом функции записи в файл смещение в файле будет устанавливаться в конец файла). При этом информация не будет перезаписана, а буферы будут в порядке вызова \texttt{fclose()} записаны в файл.
 
 
 \imgHeight{8mm}{app3_threads_file}{Результат работы третьей программы (многопоточная)}
@@ -120,6 +121,66 @@
 
 При работе с буферезированным вводом-выводом может возникнуть ряд проблем, которые демонстритруются в программах данной лабораторной работы. 
 
-Во второй программе возникает проблема двойного вывод символов на экран, так как из-за двух файловых дескрипторов смещения в файле будут производиться независимо. Решением данной проблемы является использование \texttt{mutex} и создание разделяемой области памяти (некой переменной, которая будет отслеживать позицию указателя в файле).
+В первой программе использование буферизации приводит к тому, что символы выводятся не последовательно (вывод символов происходит поочередно из двух буферов, из-за чего вывод <<перемешан>>).
 
-В третьей программе демонстритруется проблема перезаписи информации при вызове \texttt{flcose()} для разных файловых потоков, так как каждый начинает запись с начала файла. Решением проблемы является открытие файла на дозапись в режиме \texttt{a (append)}.
+Во второй программе возникает проблема двойного вывода символов на экран, так как из-за двух файловых дескрипторов смещения в файле будут производиться независимо. Решением данной проблемы является использование \texttt{mutex} и создание разделяемой области памяти (некой переменной, которая будет отслеживать позицию указателя в файле).
+
+В третьей программе демонстритруется проблема перезаписи информации при вызове \texttt{flcose()} для разных файловых потоков, так как каждый начинает запись с начала файла. Решением проблемы является открытие файла на дозапись с опцией \texttt{<<a>> (O\_APPEND)} (тогда операция записи в файл станет атомарной, и перед каждым вызовом функции записи в файл смещение в файле будет устанавливаться в конец файла).
+
+
+\chapter*{Дополнение}
+
+\subsubsection{Структура FILE}
+
+В файле <</usr/include/x86\_64-linux-gnu/bits/types/FILE.h>> описание структуры FILE.
+
+\begin{lstlisting}
+typedef struct _IO_FILE FILE;
+\end{lstlisting}
+
+В файле <</usr/include/x86\_64-linux-gnu/bits/libio.h>> находится описание структуры \texttt{\_IO\_FILE}.
+\begin{lstlisting}
+struct _IO_FILE
+{
+int _flags; /* High-order word is _IO_MAGIC; rest is flags. */
+#define _IO_file_flags _flags
+
+/* The following pointers correspond to the C++ streambuf protocol. */
+/* Note:  Tk uses the _IO_read_ptr and _IO_read_end fields directly. */
+char *_IO_read_ptr;   /* Current read pointer */
+char *_IO_read_end;   /* End of get area. */
+char *_IO_read_base;  /* Start of putback+get area. */
+char *_IO_write_base; /* Start of put area. */
+char *_IO_write_ptr;  /* Current put pointer. */
+char *_IO_write_end;  /* End of put area. */
+char *_IO_buf_base;   /* Start of reserve area. */
+char *_IO_buf_end;    /* End of reserve area. */
+/* The following fields are used to support backing up and undo. */
+char *_IO_save_base;   /* Pointer to start of non-current get area. */
+char *_IO_backup_base; /* Pointer to first valid character of backup area */
+char *_IO_save_end;    /* Pointer to end of non-current get area. */
+
+struct _IO_marker *_markers;
+
+struct _IO_FILE *_chain;
+
+int _fileno;
+#if 0
+int _blksize;
+#else
+int _flags2;
+#endif
+_IO_off_t _old_offset; /* This used to be _offset but it's too small.  */
+
+#define __HAVE_COLUMN /* temporary */
+/* 1+column number of pbase(); 0 is unknown. */
+unsigned short _cur_column;
+signed char _vtable_offset;
+char _shortbuf[1];
+
+/*  char* _save_gptr;  char* _save_egptr; */
+
+_IO_lock_t *_lock;
+#ifdef _IO_USE_OLD_IO_FILE
+};
+\end{lstlisting}

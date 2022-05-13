@@ -32,9 +32,7 @@ void *launchThread(void *args)
 
 
 int main(void)
-{
-    setbuf(stdout, NULL);
-
+{\
     int fd = open("alphabet.txt", O_RDONLY); // O_RDONLY - только на чтение.
 
     FILE *fs1 = fdopen(fd, "r");

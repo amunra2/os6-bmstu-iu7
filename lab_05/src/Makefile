@@ -21,6 +21,11 @@ app2_threads: app2_threads.o
 	./$@.exe
 
 
+app2_threads_right: app2_threads_right.o
+	gcc -o $@.exe  $^ $(CFLAGS)
+	./$@.exe
+
+
 app3: app3.o
 	gcc -o $@.exe  $^ $(CFLAGS)
 	./$@.exe
