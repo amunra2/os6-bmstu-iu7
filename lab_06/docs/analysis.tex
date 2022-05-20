@@ -1,0 +1,169 @@
+\chapter*{Системный вызов open()}
+
+
+\imgHeight{200mm}{all_scheme}{Схема алгоритма системного вызова open()}
+
+\imgHeight{210mm}{build_open_flags_scheme}{Схема алгоритма build\_open\_flags()}
+
+\imgHeight{180mm}{getname_flags_scheme}{Схема алгоритма getname\_flags()}
+
+\imgHeight{180mm}{alloc_fd_scheme}{Схема алгоритма alloc\_fd()}
+
+\imgHeight{190mm}{path_openat_scheme}{Схема алгоритма path\_openat()}
+
+\imgHeight{180mm}{open_last_lookups_scheme}{Схема алгоритма open\_last\_lookups()}
+
+\imgHeight{180mm}{lookup_open_scheme}{Схема алгоритма lookup\_open()}
+
+\imgHeight{130mm}{nameidata_scheme}{Схема алгоритма nameidata() и do\_flip\_open()}
+
+\imgHeight{140mm}{build_open_how_scheme}{Схема алгоритма build\_open\_how()}
+
+
+
+\chapter*{Дополнение}
+
+\section*{Необходимые структуры}
+
+\begin{lstlisting}
+struct filename {
+    const char *name;
+    const __user char *uptr;
+    int refcnt;
+    struct audit_names *aname;
+    const char iname[];
+};
+\end{lstlisting}
+
+
+\begin{lstlisting}
+struct open_flags {
+    int open_flag;
+    umode_t mode;
+    int acc_mode;
+    int intent;
+    int lookup_flags;
+};
+\end{lstlisting}
+
+
+\begin{lstlisting}
+struct audit_names {
+    struct list_head	list;
+
+    struct filename		*name;
+    int			name_len;
+    bool			hidden;
+
+    unsigned long		ino;
+    dev_t			dev;
+    umode_t			mode;
+    kuid_t			uid;
+    kgid_t			gid;
+    dev_t			rdev;
+    u32			osid;
+    struct audit_cap_data	fcap;
+    unsigned int		fcap_ver;
+    unsigned char		type;		
+    /* record type */
+    /*
+        * This was an allocated audit_names and not from the array of
+        * names allocated in the task audit context.  Thus this name
+        * should be freed on syscall exit.
+        */
+    bool			should_free;
+};
+\end{lstlisting}
+
+
+\begin{lstlisting}
+#define EMBEDDED_LEVELS 2
+struct nameidata {
+	struct path	path;
+	struct qstr	last;
+	struct path	root;
+	struct inode	*inode; /* path.dentry.d_inode */
+	unsigned int	flags;
+	unsigned	seq, m_seq, r_seq;
+	int		last_type;
+	unsigned	depth;
+	int		total_link_count;
+	struct saved {
+		struct path link;
+		struct delayed_call done;
+		const char *name;
+		unsigned seq;
+	} *stack, internal[EMBEDDED_LEVELS];
+	struct filename	*name;
+	struct nameidata *saved;
+	unsigned	root_seq;
+	int		dfd;
+	kuid_t		dir_uid;
+	umode_t		dir_mode;
+} __randomize_layout;
+\end{lstlisting}
+
+
+\begin{lstlisting}
+struct path {
+	struct vfsmount *mnt;
+	struct dentry *dentry;
+} __randomize_layout;
+\end{lstlisting}
+
+
+\begin{lstlisting}
+struct open_how {
+	__u64 flags; // @flags: O_* flags .
+	__u64 mode; //@mode : O_CREAT/O_TMPFILE file mode .
+	__u64 resolve; //@ resolve : RESOLVE_* flags
+};
+\end{lstlisting}
+
+
+\begin{lstlisting}
+inline struct open_how build_open_how(int flags, umode_t mode)
+{
+	struct open_how how = {
+		.flags = flags & VALID_OPEN_FLAGS,
+		.mode = mode & S_IALLUGO,
+	};
+
+	/* O_PATH beats everything else. */
+	if (how.flags & O_PATH)
+		how.flags &= O_PATH_FLAGS;
+	/* Modes should only be set for create-like flags. */
+	if (!WILL_CREATE(how.flags))
+		how.mode = 0;
+	return how;
+}
+\end{lstlisting}
+
+
+\section*{Флаги системного вызова \texttt{open()}}
+
+\texttt{O\_CREAT} --- если файл не существует, то он будет создан.
+
+\texttt{O\_EXCL} --- если используется совместно с \texttt{O\_CREAT}, то при наличии уже созданного файла вызов завершится ошибкой.
+
+\texttt{O\_APPEND} --- файл открывается в режиме добавления, перед каждой операцией записи файловый указатель будет устанавливаться в конец файла.
+
+\texttt{O\_NOCTTY} --- если файл указывает на терминальное устройство, то оно не станет терминалом управления процесса, даже при его отсутствии.
+
+\texttt{O\_TRUNC} --- если файл уже существует, он является обычным файлом и заданный режим позволяет записывать в этот файл, то его длина будет урезана до нуля.
+
+\texttt{O\_NONBLOCK} --- файл открывается, по возможности, в режиме non-blocking, то есть никакие последующие операции над дескриптором файла не заставляют в дальнейшем вызывающий процесс ждать.
+
+\texttt{O\_RSYNC} --- операции записи должны выполняться на том же уровне, что и \texttt{O\_SYNC}.
+
+\texttt{O\_DIRECTORY} --- если файл не является каталогом, то open вернёт ошибку.
+
+\texttt{O\_NOFOLLOW} --- если файл является символической ссылкой, то open вернёт ошибку.
+
+\texttt{O\_LARGEFILE} --- позволяет открывать файлы, размер которых не может быть представлен типом off\_t (long).
+
+\texttt{O\_TMPFILE} --- при наличии данного флага создаётся неименованный временный файл.
+
+\texttt{O\_CLOEXEC} --- включает флаг \texttt{close-on-exec} для нового файлового дескриптора, указание этого флага позволяет программе избегать дополнительных операций fcntl \texttt{F\_SETFD} для установки флага \texttt{FD\_CLOEXEC}.
+
+\texttt{O\_NOATIME} --- запрет на обновление времени последнего доступа к файлу при его чтении
