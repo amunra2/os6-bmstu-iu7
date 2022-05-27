@@ -132,11 +132,21 @@ static struct dentry *myfs_mount(struct file_system_type *type, int flags, char 
 }
 
 
+static void myfs_kill_anon_super(struct super_block *sb)
+{
+    printk(KERN_INFO "+: a23fs - My kill_anon_super\n");
+
+    return kill_anon_super(sb);
+}
+
+
+
+
 static struct file_system_type myfs_type = {
     .owner = THIS_MODULE,
     .name = "a23fs",
     .mount = myfs_mount,
-    .kill_sb = kill_anon_super, // при размонтировании ФС
+    .kill_sb = myfs_kill_anon_super, // при размонтировании ФС
 };
 
 
@@ -183,11 +193,6 @@ static int __init myfs_init(void)
 
 
     printk(KERN_INFO "+: a23fs_module loaded\n");
-
-    printk(KERN_INFO "+: a23fs - allocated %d objects into slab: %s\n", number, SLAB_NAME); 
-	printk(KERN_INFO "+: a23fs - object size %d bytes, full size %ld bytes\n", size, (long)size * number); 
-	printk(KERN_INFO "+: a23fs - constructor called %d times\n", sco); 
-
 
     return 0;
 }

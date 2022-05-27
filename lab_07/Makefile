@@ -46,5 +46,8 @@ fs_info:
 
 unmount:
 	sudo umount ./fs_dir
+	
+slab_info:
+	sudo cat /proc/slabinfo | grep a23fs
 
 	
