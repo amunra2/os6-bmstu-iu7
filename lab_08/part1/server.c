@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
     // Создаем сокет. Получаем дескриптор сокета
     // AF_UNIX - сокеты в файловом пространстве имен
     // SOCK_DGRAM - датаграмный сокет. Хранит границы сообщений
-    if ((sock = socket(AF_UNIX, SOCK_DGRAM, 0)) == -1)
+    if ((sock = socket(AF_UNIX, SOCK_STREAM, 0)) == -1)
     {
         perror("Error: socket failed");
         return -1;
@@ -64,16 +64,37 @@ int main(int argc, char *argv[])
         return -1;
     }
 
+
+
+    if (listen(sock, 1) < 0)
+	{
+		printf("Error: listen() failed\n");
+		return -1;
+	}
+
+
+    char bufSend[BUFSIZ];
+    sprintf(bufSend, "\nServer Answer - PID: %d\n", getpid());
+
     while (TRUE)
     {
+        int newsock = accept(sock, NULL, NULL);
+
+        if (newsock < 0)
+        {
+            printf("Error: accept() failed\n");
+            return -1;
+        }
+
+
         // recvfrom блокирует программу до тех пор, пока на входе не появятся новые данные.
         // bytes = recvfrom(sock, buf, sizeof(buf), 0, NULL, NULL); // В нашем случае можно и вот так.
-        bytes = recvfrom(sock, buf, sizeof(buf), 0, &rcvr_name, &namelen);
+        bytes = recv(newsock, buf, sizeof(buf), 0);
 
-        if (bytes < 0)
+        // Response to the client
+        if (send(newsock, bufSend, strlen(bufSend) + 1, 0) < 0)
         {
-            perror("Error: recvfrom failed");
-            cleanup(sock);
+            perror("Error: sendto fail"); 
             return -1;
         }
 

@@ -70,6 +70,9 @@ int main(int argc, char *argv[])
 		return -1;
 	}
 
+	char bufSend[BUFSIZ];
+    sprintf(bufSend, "\nPID сервера: %d\n", getpid());
+
 	printf("Сервер работает!\n");
 
 	while (TRUE)
@@ -144,13 +147,10 @@ int main(int argc, char *argv[])
 		{
 			if (arr_sock[i] && FD_ISSET(arr_sock[i], &set))
 			{
-				// recvfrom - получить сообщение из сокета.
-				// Возвращает кол-во принятых байт.
-				// -1, если ошибка.
-
 				char buf[MAX_LEN_BUF];
 
-				int rv = recvfrom(arr_sock[i], buf, sizeof(buf), 0, NULL, NULL);
+				int rv = recv(arr_sock[i], buf, sizeof(buf), 0);
+
 				if (rv == 0)
 				{
 					printf("Отключение от сервера клиента номер %d\n", i);
@@ -168,6 +168,13 @@ int main(int argc, char *argv[])
 					else
 					{
 						printf("Клиент номер %d. \"%s\" не является числом!\n", i, buf);
+					}
+
+					// Response to the client
+					if (send(arr_sock[i], bufSend, strlen(bufSend) + 1, 0) < 0)
+					{
+						perror("Error: sendto fail"); 
+						return -1;
 					}
 				}
 			}

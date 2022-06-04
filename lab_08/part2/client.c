@@ -43,19 +43,26 @@ int main(int argc, char *argv[])
 		return -1;
 	}
 
+	int bytes;
+	char bufServer[BUFSIZ];
+
 	while (TRUE)
 	{
 		printf("Введите число: ");
 		scanf("%s", buf);
 
-		if (sendto(sock, buf, strlen(buf) + 1, 0, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0)
+		if (send(sock, buf, strlen(buf) + 1, 0) < 0)
 		{
 			perror("Error: sendto() failed");
 			return -1;
 		}
 
 		printf("Число отправлено!\n");
-		// fflush(0);
+
+
+		bytes = recv(sock, bufServer, sizeof(bufServer), 0);
+
+		printf("\nОтвет сервера: %s\n\n", bufServer);
 	}
 
 	close(sock);

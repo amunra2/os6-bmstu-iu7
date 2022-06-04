@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	char buf[MAX_MSG_LEN];
 	createMessage(buf, argc, argv);
 
-	sock = socket(AF_UNIX, SOCK_DGRAM, 0);
+	sock = socket(AF_UNIX, SOCK_STREAM, 0);
 	if (sock < 0)
 	{
 		perror("Error: socket failed");
@@ -40,12 +40,31 @@ int main(int argc, char *argv[])
 	srvr_name.sa_family = AF_UNIX;
 	strcpy(srvr_name.sa_data, SOCK_NAME);
 
+	if (connect(sock, (struct sockaddr *)&srvr_name, sizeof(srvr_name)) < 0)
+	{
+		printf("Error: connect() failed");
+		return -1;
+	}
+	else
+	{
+		printf("Client connected!\n");
+	}
+
 	// 0 - доп флаги
-	if (sendto(sock, buf, strlen(buf) + 1, 0, &srvr_name, LEN_STRUCT_SOCKADDR(srvr_name)) < 0)
+	if (send(sock, buf, strlen(buf) + 1, 0) < 0)
 	{
 		perror("Error: sendto fail"); 
 		return -1;
 	}
+
+	// Server's response
+	int namelen;
+	int bytes;
+	char bufServer[BUFSIZ];
+
+	bytes = recv(sock, bufServer, sizeof(bufServer), 0);
+
+	printf("\nReceived Server message: %s", bufServer);
 
 	close(sock);
 	printf("Success send!\n");
